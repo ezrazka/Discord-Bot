@@ -1,0 +1,28 @@
+{
+    "id": 8,
+    "height": 10,
+    "weight": 225,
+    "typing": [
+        "water"
+    ],
+    "base_stats": {
+        "hp": 59,
+        "attack": 63,
+        "defense": 80,
+        "special-attack": 65,
+        "special-defense": 80,
+        "speed": 58
+    },
+    "abilities": {
+        "normal": [
+            "torrent"
+        ],
+        "hidden": [
+            "rain-dish"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/wartortle.png",
+        "shiny": "data/sprites/shiny/wartortle.png"
+    }
+}

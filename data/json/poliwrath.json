@@ -1,0 +1,30 @@
+{
+    "id": 62,
+    "height": 13,
+    "weight": 540,
+    "typing": [
+        "water",
+        "fighting"
+    ],
+    "base_stats": {
+        "hp": 90,
+        "attack": 95,
+        "defense": 95,
+        "special-attack": 70,
+        "special-defense": 90,
+        "speed": 70
+    },
+    "abilities": {
+        "normal": [
+            "water-absorb",
+            "damp"
+        ],
+        "hidden": [
+            "swift-swim"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/poliwrath.png",
+        "shiny": "data/sprites/shiny/poliwrath.png"
+    }
+}

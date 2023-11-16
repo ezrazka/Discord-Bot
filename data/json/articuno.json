@@ -1,0 +1,29 @@
+{
+    "id": 144,
+    "height": 17,
+    "weight": 554,
+    "typing": [
+        "ice",
+        "flying"
+    ],
+    "base_stats": {
+        "hp": 90,
+        "attack": 85,
+        "defense": 100,
+        "special-attack": 95,
+        "special-defense": 125,
+        "speed": 85
+    },
+    "abilities": {
+        "normal": [
+            "pressure"
+        ],
+        "hidden": [
+            "snow-cloak"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/articuno.png",
+        "shiny": "data/sprites/shiny/articuno.png"
+    }
+}

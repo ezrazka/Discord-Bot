@@ -12,5 +12,6 @@ async def setup(bot):
 
 @bot.command()
 @commands.is_owner()
+@commands.cooldown(1, 5, commands.BucketType.user)
 async def say(ctx, message):
     await ctx.send(message)

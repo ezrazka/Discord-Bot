@@ -1,0 +1,29 @@
+{
+    "id": 3,
+    "height": 20,
+    "weight": 1000,
+    "typing": [
+        "grass",
+        "poison"
+    ],
+    "base_stats": {
+        "hp": 80,
+        "attack": 82,
+        "defense": 83,
+        "special-attack": 100,
+        "special-defense": 100,
+        "speed": 80
+    },
+    "abilities": {
+        "normal": [
+            "overgrow"
+        ],
+        "hidden": [
+            "chlorophyll"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/venusaur.png",
+        "shiny": "data/sprites/shiny/venusaur.png"
+    }
+}

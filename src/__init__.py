@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-from utils import get_cases
+from utils.misc import get_cases
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -28,36 +28,26 @@ async def on_ready():
             name=f"{DEFAULT_PREFIX}help"
         )
     )
-
-bot.load_extension("data.commands")
+    await bot.load_extension("src.commands")
 
 
 @bot.command()
 @commands.is_owner()
 async def load(ctx):
-    try:
-        await bot.load_extension("src.commands")
-        await ctx.reply("All commands have been successfully loaded.")
-    except Exception as e:
-        print(f"Failed to load extension: {e}")
+    await bot.load_extension("src.commands")
+    await ctx.reply("All commands have been successfully loaded.")
 
 
 @bot.command()
 @commands.is_owner()
 async def unload(ctx):
-    try:
-        await bot.unload_extension("src.commands")
-        await ctx.reply("All commands have been successfully unloaded.")
-    except Exception as e:
-        print(f"Failed to unload extension: {e}")
+    await bot.unload_extension("src.commands")
+    await ctx.reply("All commands have been successfully unloaded.")
 
 
 @bot.command()
 @commands.is_owner()
 async def reload(ctx):
-    try:
-        await bot.unload_extension("src.commands")
-        await bot.load_extension("src.commands")
-        await ctx.reply("All commands have been successfully reloaded.")
-    except Exception as e:
-        print(f"Failed to reload extension: {e}")
+    await bot.unload_extension("src.commands")
+    await bot.load_extension("src.commands")
+    await ctx.reply("All commands have been successfully reloaded.")

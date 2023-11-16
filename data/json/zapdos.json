@@ -1,0 +1,29 @@
+{
+    "id": 145,
+    "height": 16,
+    "weight": 526,
+    "typing": [
+        "electric",
+        "flying"
+    ],
+    "base_stats": {
+        "hp": 90,
+        "attack": 90,
+        "defense": 85,
+        "special-attack": 125,
+        "special-defense": 90,
+        "speed": 100
+    },
+    "abilities": {
+        "normal": [
+            "pressure"
+        ],
+        "hidden": [
+            "static"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/zapdos.png",
+        "shiny": "data/sprites/shiny/zapdos.png"
+    }
+}

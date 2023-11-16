@@ -1,0 +1,29 @@
+{
+    "id": 20,
+    "height": 7,
+    "weight": 185,
+    "typing": [
+        "normal"
+    ],
+    "base_stats": {
+        "hp": 55,
+        "attack": 81,
+        "defense": 60,
+        "special-attack": 50,
+        "special-defense": 70,
+        "speed": 97
+    },
+    "abilities": {
+        "normal": [
+            "run-away",
+            "guts"
+        ],
+        "hidden": [
+            "hustle"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/raticate.png",
+        "shiny": "data/sprites/shiny/raticate.png"
+    }
+}

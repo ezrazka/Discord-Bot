@@ -1,0 +1,29 @@
+{
+    "id": 36,
+    "height": 13,
+    "weight": 400,
+    "typing": [
+        "fairy"
+    ],
+    "base_stats": {
+        "hp": 95,
+        "attack": 70,
+        "defense": 73,
+        "special-attack": 95,
+        "special-defense": 90,
+        "speed": 60
+    },
+    "abilities": {
+        "normal": [
+            "cute-charm",
+            "magic-guard"
+        ],
+        "hidden": [
+            "unaware"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/clefable.png",
+        "shiny": "data/sprites/shiny/clefable.png"
+    }
+}

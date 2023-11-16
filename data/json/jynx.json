@@ -1,0 +1,30 @@
+{
+    "id": 124,
+    "height": 14,
+    "weight": 406,
+    "typing": [
+        "ice",
+        "psychic"
+    ],
+    "base_stats": {
+        "hp": 65,
+        "attack": 50,
+        "defense": 35,
+        "special-attack": 115,
+        "special-defense": 95,
+        "speed": 95
+    },
+    "abilities": {
+        "normal": [
+            "oblivious",
+            "forewarn"
+        ],
+        "hidden": [
+            "dry-skin"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/jynx.png",
+        "shiny": "data/sprites/shiny/jynx.png"
+    }
+}

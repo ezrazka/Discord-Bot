@@ -1,0 +1,29 @@
+{
+    "id": 65,
+    "height": 15,
+    "weight": 480,
+    "typing": [
+        "psychic"
+    ],
+    "base_stats": {
+        "hp": 55,
+        "attack": 50,
+        "defense": 45,
+        "special-attack": 135,
+        "special-defense": 95,
+        "speed": 120
+    },
+    "abilities": {
+        "normal": [
+            "synchronize",
+            "inner-focus"
+        ],
+        "hidden": [
+            "magic-guard"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/alakazam.png",
+        "shiny": "data/sprites/shiny/alakazam.png"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "id": 84,
+    "height": 14,
+    "weight": 392,
+    "typing": [
+        "normal",
+        "flying"
+    ],
+    "base_stats": {
+        "hp": 35,
+        "attack": 85,
+        "defense": 45,
+        "special-attack": 35,
+        "special-defense": 35,
+        "speed": 75
+    },
+    "abilities": {
+        "normal": [
+            "run-away",
+            "early-bird"
+        ],
+        "hidden": [
+            "tangled-feet"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/doduo.png",
+        "shiny": "data/sprites/shiny/doduo.png"
+    }
+}

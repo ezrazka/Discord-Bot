@@ -1,0 +1,30 @@
+{
+    "id": 31,
+    "height": 13,
+    "weight": 600,
+    "typing": [
+        "poison",
+        "ground"
+    ],
+    "base_stats": {
+        "hp": 90,
+        "attack": 92,
+        "defense": 87,
+        "special-attack": 75,
+        "special-defense": 85,
+        "speed": 76
+    },
+    "abilities": {
+        "normal": [
+            "poison-point",
+            "rivalry"
+        ],
+        "hidden": [
+            "sheer-force"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/nidoqueen.png",
+        "shiny": "data/sprites/shiny/nidoqueen.png"
+    }
+}

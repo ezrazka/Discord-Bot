@@ -1,0 +1,30 @@
+{
+    "id": 79,
+    "height": 12,
+    "weight": 360,
+    "typing": [
+        "water",
+        "psychic"
+    ],
+    "base_stats": {
+        "hp": 90,
+        "attack": 65,
+        "defense": 65,
+        "special-attack": 40,
+        "special-defense": 40,
+        "speed": 15
+    },
+    "abilities": {
+        "normal": [
+            "oblivious",
+            "own-tempo"
+        ],
+        "hidden": [
+            "regenerator"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/slowpoke.png",
+        "shiny": "data/sprites/shiny/slowpoke.png"
+    }
+}

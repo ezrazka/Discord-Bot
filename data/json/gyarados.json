@@ -1,0 +1,29 @@
+{
+    "id": 130,
+    "height": 65,
+    "weight": 2350,
+    "typing": [
+        "water",
+        "flying"
+    ],
+    "base_stats": {
+        "hp": 95,
+        "attack": 125,
+        "defense": 79,
+        "special-attack": 60,
+        "special-defense": 100,
+        "speed": 81
+    },
+    "abilities": {
+        "normal": [
+            "intimidate"
+        ],
+        "hidden": [
+            "moxie"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/gyarados.png",
+        "shiny": "data/sprites/shiny/gyarados.png"
+    }
+}

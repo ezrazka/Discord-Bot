@@ -1,0 +1,30 @@
+{
+    "id": 142,
+    "height": 18,
+    "weight": 590,
+    "typing": [
+        "rock",
+        "flying"
+    ],
+    "base_stats": {
+        "hp": 80,
+        "attack": 105,
+        "defense": 65,
+        "special-attack": 60,
+        "special-defense": 75,
+        "speed": 130
+    },
+    "abilities": {
+        "normal": [
+            "rock-head",
+            "pressure"
+        ],
+        "hidden": [
+            "unnerve"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/aerodactyl.png",
+        "shiny": "data/sprites/shiny/aerodactyl.png"
+    }
+}

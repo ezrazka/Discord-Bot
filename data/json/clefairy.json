@@ -1,0 +1,29 @@
+{
+    "id": 35,
+    "height": 6,
+    "weight": 75,
+    "typing": [
+        "fairy"
+    ],
+    "base_stats": {
+        "hp": 70,
+        "attack": 45,
+        "defense": 48,
+        "special-attack": 60,
+        "special-defense": 65,
+        "speed": 35
+    },
+    "abilities": {
+        "normal": [
+            "cute-charm",
+            "magic-guard"
+        ],
+        "hidden": [
+            "friend-guard"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/clefairy.png",
+        "shiny": "data/sprites/shiny/clefairy.png"
+    }
+}

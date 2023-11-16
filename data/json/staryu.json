@@ -1,0 +1,29 @@
+{
+    "id": 120,
+    "height": 8,
+    "weight": 345,
+    "typing": [
+        "water"
+    ],
+    "base_stats": {
+        "hp": 30,
+        "attack": 45,
+        "defense": 55,
+        "special-attack": 70,
+        "special-defense": 55,
+        "speed": 85
+    },
+    "abilities": {
+        "normal": [
+            "illuminate",
+            "natural-cure"
+        ],
+        "hidden": [
+            "analytic"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/staryu.png",
+        "shiny": "data/sprites/shiny/staryu.png"
+    }
+}

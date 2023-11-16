@@ -1,0 +1,29 @@
+{
+    "id": 6,
+    "height": 17,
+    "weight": 905,
+    "typing": [
+        "fire",
+        "flying"
+    ],
+    "base_stats": {
+        "hp": 78,
+        "attack": 84,
+        "defense": 78,
+        "special-attack": 109,
+        "special-defense": 85,
+        "speed": 100
+    },
+    "abilities": {
+        "normal": [
+            "blaze"
+        ],
+        "hidden": [
+            "solar-power"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/charizard.png",
+        "shiny": "data/sprites/shiny/charizard.png"
+    }
+}

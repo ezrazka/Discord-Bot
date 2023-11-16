@@ -1,0 +1,29 @@
+{
+    "id": 116,
+    "height": 4,
+    "weight": 80,
+    "typing": [
+        "water"
+    ],
+    "base_stats": {
+        "hp": 30,
+        "attack": 40,
+        "defense": 70,
+        "special-attack": 70,
+        "special-defense": 25,
+        "speed": 60
+    },
+    "abilities": {
+        "normal": [
+            "swift-swim",
+            "sniper"
+        ],
+        "hidden": [
+            "damp"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/horsea.png",
+        "shiny": "data/sprites/shiny/horsea.png"
+    }
+}

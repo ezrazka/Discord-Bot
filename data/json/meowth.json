@@ -1,0 +1,29 @@
+{
+    "id": 52,
+    "height": 4,
+    "weight": 42,
+    "typing": [
+        "normal"
+    ],
+    "base_stats": {
+        "hp": 40,
+        "attack": 45,
+        "defense": 35,
+        "special-attack": 40,
+        "special-defense": 40,
+        "speed": 90
+    },
+    "abilities": {
+        "normal": [
+            "pickup",
+            "technician"
+        ],
+        "hidden": [
+            "unnerve"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/meowth.png",
+        "shiny": "data/sprites/shiny/meowth.png"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "id": 141,
+    "height": 13,
+    "weight": 405,
+    "typing": [
+        "rock",
+        "water"
+    ],
+    "base_stats": {
+        "hp": 60,
+        "attack": 115,
+        "defense": 105,
+        "special-attack": 65,
+        "special-defense": 70,
+        "speed": 80
+    },
+    "abilities": {
+        "normal": [
+            "swift-swim",
+            "battle-armor"
+        ],
+        "hidden": [
+            "weak-armor"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/kabutops.png",
+        "shiny": "data/sprites/shiny/kabutops.png"
+    }
+}

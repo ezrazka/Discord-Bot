@@ -1,0 +1,29 @@
+{
+    "id": 97,
+    "height": 16,
+    "weight": 756,
+    "typing": [
+        "psychic"
+    ],
+    "base_stats": {
+        "hp": 85,
+        "attack": 73,
+        "defense": 70,
+        "special-attack": 73,
+        "special-defense": 115,
+        "speed": 67
+    },
+    "abilities": {
+        "normal": [
+            "insomnia",
+            "forewarn"
+        ],
+        "hidden": [
+            "inner-focus"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/hypno.png",
+        "shiny": "data/sprites/shiny/hypno.png"
+    }
+}

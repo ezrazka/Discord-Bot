@@ -1,0 +1,30 @@
+{
+    "id": 121,
+    "height": 11,
+    "weight": 800,
+    "typing": [
+        "water",
+        "psychic"
+    ],
+    "base_stats": {
+        "hp": 60,
+        "attack": 75,
+        "defense": 85,
+        "special-attack": 100,
+        "special-defense": 85,
+        "speed": 115
+    },
+    "abilities": {
+        "normal": [
+            "illuminate",
+            "natural-cure"
+        ],
+        "hidden": [
+            "analytic"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/starmie.png",
+        "shiny": "data/sprites/shiny/starmie.png"
+    }
+}

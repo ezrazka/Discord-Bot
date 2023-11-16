@@ -1,0 +1,30 @@
+{
+    "id": 138,
+    "height": 4,
+    "weight": 75,
+    "typing": [
+        "rock",
+        "water"
+    ],
+    "base_stats": {
+        "hp": 35,
+        "attack": 40,
+        "defense": 100,
+        "special-attack": 90,
+        "special-defense": 55,
+        "speed": 35
+    },
+    "abilities": {
+        "normal": [
+            "swift-swim",
+            "shell-armor"
+        ],
+        "hidden": [
+            "weak-armor"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/omanyte.png",
+        "shiny": "data/sprites/shiny/omanyte.png"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "id": 88,
+    "height": 9,
+    "weight": 300,
+    "typing": [
+        "poison"
+    ],
+    "base_stats": {
+        "hp": 80,
+        "attack": 80,
+        "defense": 50,
+        "special-attack": 40,
+        "special-defense": 50,
+        "speed": 25
+    },
+    "abilities": {
+        "normal": [
+            "stench",
+            "sticky-hold"
+        ],
+        "hidden": [
+            "poison-touch"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/grimer.png",
+        "shiny": "data/sprites/shiny/grimer.png"
+    }
+}

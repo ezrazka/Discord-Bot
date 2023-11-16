@@ -1,0 +1,30 @@
+{
+    "id": 91,
+    "height": 15,
+    "weight": 1325,
+    "typing": [
+        "water",
+        "ice"
+    ],
+    "base_stats": {
+        "hp": 50,
+        "attack": 95,
+        "defense": 180,
+        "special-attack": 85,
+        "special-defense": 45,
+        "speed": 70
+    },
+    "abilities": {
+        "normal": [
+            "shell-armor",
+            "skill-link"
+        ],
+        "hidden": [
+            "overcoat"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/cloyster.png",
+        "shiny": "data/sprites/shiny/cloyster.png"
+    }
+}

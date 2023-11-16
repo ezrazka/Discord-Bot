@@ -1,0 +1,29 @@
+{
+    "id": 60,
+    "height": 6,
+    "weight": 124,
+    "typing": [
+        "water"
+    ],
+    "base_stats": {
+        "hp": 40,
+        "attack": 50,
+        "defense": 40,
+        "special-attack": 40,
+        "special-defense": 40,
+        "speed": 90
+    },
+    "abilities": {
+        "normal": [
+            "water-absorb",
+            "damp"
+        ],
+        "hidden": [
+            "swift-swim"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/poliwag.png",
+        "shiny": "data/sprites/shiny/poliwag.png"
+    }
+}

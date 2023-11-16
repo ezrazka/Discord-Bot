@@ -1,0 +1,30 @@
+{
+    "id": 73,
+    "height": 16,
+    "weight": 550,
+    "typing": [
+        "water",
+        "poison"
+    ],
+    "base_stats": {
+        "hp": 80,
+        "attack": 70,
+        "defense": 65,
+        "special-attack": 80,
+        "special-defense": 120,
+        "speed": 100
+    },
+    "abilities": {
+        "normal": [
+            "clear-body",
+            "liquid-ooze"
+        ],
+        "hidden": [
+            "rain-dish"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/tentacruel.png",
+        "shiny": "data/sprites/shiny/tentacruel.png"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "id": 134,
+    "height": 10,
+    "weight": 290,
+    "typing": [
+        "water"
+    ],
+    "base_stats": {
+        "hp": 130,
+        "attack": 65,
+        "defense": 60,
+        "special-attack": 110,
+        "special-defense": 95,
+        "speed": 65
+    },
+    "abilities": {
+        "normal": [
+            "water-absorb"
+        ],
+        "hidden": [
+            "hydration"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/vaporeon.png",
+        "shiny": "data/sprites/shiny/vaporeon.png"
+    }
+}

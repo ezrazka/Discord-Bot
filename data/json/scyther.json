@@ -1,0 +1,30 @@
+{
+    "id": 123,
+    "height": 15,
+    "weight": 560,
+    "typing": [
+        "bug",
+        "flying"
+    ],
+    "base_stats": {
+        "hp": 70,
+        "attack": 110,
+        "defense": 80,
+        "special-attack": 55,
+        "special-defense": 80,
+        "speed": 105
+    },
+    "abilities": {
+        "normal": [
+            "swarm",
+            "technician"
+        ],
+        "hidden": [
+            "steadfast"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/scyther.png",
+        "shiny": "data/sprites/shiny/scyther.png"
+    }
+}

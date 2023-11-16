@@ -1,0 +1,29 @@
+{
+    "id": 117,
+    "height": 12,
+    "weight": 250,
+    "typing": [
+        "water"
+    ],
+    "base_stats": {
+        "hp": 55,
+        "attack": 65,
+        "defense": 95,
+        "special-attack": 95,
+        "special-defense": 45,
+        "speed": 85
+    },
+    "abilities": {
+        "normal": [
+            "poison-point",
+            "sniper"
+        ],
+        "hidden": [
+            "damp"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/seadra.png",
+        "shiny": "data/sprites/shiny/seadra.png"
+    }
+}

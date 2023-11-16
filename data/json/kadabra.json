@@ -1,0 +1,29 @@
+{
+    "id": 64,
+    "height": 13,
+    "weight": 565,
+    "typing": [
+        "psychic"
+    ],
+    "base_stats": {
+        "hp": 40,
+        "attack": 35,
+        "defense": 30,
+        "special-attack": 120,
+        "special-defense": 70,
+        "speed": 105
+    },
+    "abilities": {
+        "normal": [
+            "synchronize",
+            "inner-focus"
+        ],
+        "hidden": [
+            "magic-guard"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/kadabra.png",
+        "shiny": "data/sprites/shiny/kadabra.png"
+    }
+}

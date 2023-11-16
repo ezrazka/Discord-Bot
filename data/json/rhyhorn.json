@@ -1,0 +1,30 @@
+{
+    "id": 111,
+    "height": 10,
+    "weight": 1150,
+    "typing": [
+        "ground",
+        "rock"
+    ],
+    "base_stats": {
+        "hp": 80,
+        "attack": 85,
+        "defense": 95,
+        "special-attack": 30,
+        "special-defense": 30,
+        "speed": 25
+    },
+    "abilities": {
+        "normal": [
+            "lightning-rod",
+            "rock-head"
+        ],
+        "hidden": [
+            "reckless"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/rhyhorn.png",
+        "shiny": "data/sprites/shiny/rhyhorn.png"
+    }
+}

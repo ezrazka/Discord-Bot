@@ -1,0 +1,28 @@
+{
+    "id": 9,
+    "height": 16,
+    "weight": 855,
+    "typing": [
+        "water"
+    ],
+    "base_stats": {
+        "hp": 79,
+        "attack": 83,
+        "defense": 100,
+        "special-attack": 85,
+        "special-defense": 105,
+        "speed": 78
+    },
+    "abilities": {
+        "normal": [
+            "torrent"
+        ],
+        "hidden": [
+            "rain-dish"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/blastoise.png",
+        "shiny": "data/sprites/shiny/blastoise.png"
+    }
+}

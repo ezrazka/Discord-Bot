@@ -1,0 +1,30 @@
+{
+    "id": 112,
+    "height": 19,
+    "weight": 1200,
+    "typing": [
+        "ground",
+        "rock"
+    ],
+    "base_stats": {
+        "hp": 105,
+        "attack": 130,
+        "defense": 120,
+        "special-attack": 45,
+        "special-defense": 45,
+        "speed": 40
+    },
+    "abilities": {
+        "normal": [
+            "lightning-rod",
+            "rock-head"
+        ],
+        "hidden": [
+            "reckless"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/rhydon.png",
+        "shiny": "data/sprites/shiny/rhydon.png"
+    }
+}

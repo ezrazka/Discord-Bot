@@ -1,0 +1,29 @@
+{
+    "id": 105,
+    "height": 10,
+    "weight": 450,
+    "typing": [
+        "ground"
+    ],
+    "base_stats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 110,
+        "special-attack": 50,
+        "special-defense": 80,
+        "speed": 45
+    },
+    "abilities": {
+        "normal": [
+            "rock-head",
+            "lightning-rod"
+        ],
+        "hidden": [
+            "battle-armor"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/marowak.png",
+        "shiny": "data/sprites/shiny/marowak.png"
+    }
+}

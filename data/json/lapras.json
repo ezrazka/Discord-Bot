@@ -1,0 +1,30 @@
+{
+    "id": 131,
+    "height": 25,
+    "weight": 2200,
+    "typing": [
+        "water",
+        "ice"
+    ],
+    "base_stats": {
+        "hp": 130,
+        "attack": 85,
+        "defense": 80,
+        "special-attack": 85,
+        "special-defense": 95,
+        "speed": 60
+    },
+    "abilities": {
+        "normal": [
+            "water-absorb",
+            "shell-armor"
+        ],
+        "hidden": [
+            "hydration"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/lapras.png",
+        "shiny": "data/sprites/shiny/lapras.png"
+    }
+}

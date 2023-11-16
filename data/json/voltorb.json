@@ -1,0 +1,29 @@
+{
+    "id": 100,
+    "height": 5,
+    "weight": 104,
+    "typing": [
+        "electric"
+    ],
+    "base_stats": {
+        "hp": 40,
+        "attack": 30,
+        "defense": 50,
+        "special-attack": 55,
+        "special-defense": 55,
+        "speed": 100
+    },
+    "abilities": {
+        "normal": [
+            "soundproof",
+            "static"
+        ],
+        "hidden": [
+            "aftermath"
+        ]
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/voltorb.png",
+        "shiny": "data/sprites/shiny/voltorb.png"
+    }
+}

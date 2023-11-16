@@ -1,0 +1,27 @@
+{
+    "id": 14,
+    "height": 6,
+    "weight": 100,
+    "typing": [
+        "bug",
+        "poison"
+    ],
+    "base_stats": {
+        "hp": 45,
+        "attack": 25,
+        "defense": 50,
+        "special-attack": 25,
+        "special-defense": 25,
+        "speed": 35
+    },
+    "abilities": {
+        "normal": [
+            "shed-skin"
+        ],
+        "hidden": []
+    },
+    "sprites": {
+        "normal": "data/sprites/normal/kakuna.png",
+        "shiny": "data/sprites/shiny/kakuna.png"
+    }
+}
