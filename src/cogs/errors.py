@@ -12,7 +12,7 @@ class Errors(commands.Cog):
             error = error.original
 
         await ctx.send(embed=discord.Embed(
-            title=f"Error: {type(error).__name__}",
+            title=f"Error | {type(error).__name__}",
             description=str(error),
             color=0xff0000
         ))

@@ -3,7 +3,7 @@
         "id": 1,
         "height": 7,
         "weight": 69,
-        "typing": [
+        "types": [
             "grass",
             "poison"
         ],
@@ -32,7 +32,7 @@
         "id": 2,
         "height": 10,
         "weight": 130,
-        "typing": [
+        "types": [
             "grass",
             "poison"
         ],
@@ -61,7 +61,7 @@
         "id": 3,
         "height": 20,
         "weight": 1000,
-        "typing": [
+        "types": [
             "grass",
             "poison"
         ],
@@ -90,7 +90,7 @@
         "id": 4,
         "height": 6,
         "weight": 85,
-        "typing": [
+        "types": [
             "fire"
         ],
         "base_stats": {
@@ -118,7 +118,7 @@
         "id": 5,
         "height": 11,
         "weight": 190,
-        "typing": [
+        "types": [
             "fire"
         ],
         "base_stats": {
@@ -146,7 +146,7 @@
         "id": 6,
         "height": 17,
         "weight": 905,
-        "typing": [
+        "types": [
             "fire",
             "flying"
         ],
@@ -175,7 +175,7 @@
         "id": 7,
         "height": 5,
         "weight": 90,
-        "typing": [
+        "types": [
             "water"
         ],
         "base_stats": {
@@ -203,7 +203,7 @@
         "id": 8,
         "height": 10,
         "weight": 225,
-        "typing": [
+        "types": [
             "water"
         ],
         "base_stats": {
@@ -231,7 +231,7 @@
         "id": 9,
         "height": 16,
         "weight": 855,
-        "typing": [
+        "types": [
             "water"
         ],
         "base_stats": {
@@ -259,7 +259,7 @@
         "id": 10,
         "height": 3,
         "weight": 29,
-        "typing": [
+        "types": [
             "bug"
         ],
         "base_stats": {
@@ -287,7 +287,7 @@
         "id": 11,
         "height": 7,
         "weight": 99,
-        "typing": [
+        "types": [
             "bug"
         ],
         "base_stats": {
@@ -313,7 +313,7 @@
         "id": 12,
         "height": 11,
         "weight": 320,
-        "typing": [
+        "types": [
             "bug",
             "flying"
         ],
@@ -342,7 +342,7 @@
         "id": 13,
         "height": 3,
         "weight": 32,
-        "typing": [
+        "types": [
             "bug",
             "poison"
         ],
@@ -371,7 +371,7 @@
         "id": 14,
         "height": 6,
         "weight": 100,
-        "typing": [
+        "types": [
             "bug",
             "poison"
         ],
@@ -398,7 +398,7 @@
         "id": 15,
         "height": 10,
         "weight": 295,
-        "typing": [
+        "types": [
             "bug",
             "poison"
         ],
@@ -427,7 +427,7 @@
         "id": 16,
         "height": 3,
         "weight": 18,
-        "typing": [
+        "types": [
             "normal",
             "flying"
         ],
@@ -457,7 +457,7 @@
         "id": 17,
         "height": 11,
         "weight": 300,
-        "typing": [
+        "types": [
             "normal",
             "flying"
         ],
@@ -487,7 +487,7 @@
         "id": 18,
         "height": 15,
         "weight": 395,
-        "typing": [
+        "types": [
             "normal",
             "flying"
         ],
@@ -517,7 +517,7 @@
         "id": 19,
         "height": 3,
         "weight": 35,
-        "typing": [
+        "types": [
             "normal"
         ],
         "base_stats": {
@@ -546,7 +546,7 @@
         "id": 20,
         "height": 7,
         "weight": 185,
-        "typing": [
+        "types": [
             "normal"
         ],
         "base_stats": {
@@ -575,7 +575,7 @@
         "id": 21,
         "height": 3,
         "weight": 20,
-        "typing": [
+        "types": [
             "normal",
             "flying"
         ],
@@ -604,7 +604,7 @@
         "id": 22,
         "height": 12,
         "weight": 380,
-        "typing": [
+        "types": [
             "normal",
             "flying"
         ],
@@ -633,7 +633,7 @@
         "id": 23,
         "height": 20,
         "weight": 69,
-        "typing": [
+        "types": [
             "poison"
         ],
         "base_stats": {
@@ -662,7 +662,7 @@
         "id": 24,
         "height": 35,
         "weight": 650,
-        "typing": [
+        "types": [
             "poison"
         ],
         "base_stats": {
@@ -691,7 +691,7 @@
         "id": 25,
         "height": 4,
         "weight": 60,
-        "typing": [
+        "types": [
             "electric"
         ],
         "base_stats": {
@@ -719,7 +719,7 @@
         "id": 26,
         "height": 8,
         "weight": 300,
-        "typing": [
+        "types": [
             "electric"
         ],
         "base_stats": {
@@ -747,7 +747,7 @@
         "id": 27,
         "height": 6,
         "weight": 120,
-        "typing": [
+        "types": [
             "ground"
         ],
         "base_stats": {
@@ -775,7 +775,7 @@
         "id": 28,
         "height": 10,
         "weight": 295,
-        "typing": [
+        "types": [
             "ground"
         ],
         "base_stats": {
@@ -803,7 +803,7 @@
         "id": 29,
         "height": 4,
         "weight": 70,
-        "typing": [
+        "types": [
             "poison"
         ],
         "base_stats": {
@@ -832,7 +832,7 @@
         "id": 30,
         "height": 8,
         "weight": 200,
-        "typing": [
+        "types": [
             "poison"
         ],
         "base_stats": {
@@ -861,7 +861,7 @@
         "id": 31,
         "height": 13,
         "weight": 600,
-        "typing": [
+        "types": [
             "poison",
             "ground"
         ],
@@ -891,7 +891,7 @@
         "id": 32,
         "height": 5,
         "weight": 90,
-        "typing": [
+        "types": [
             "poison"
         ],
         "base_stats": {
@@ -920,7 +920,7 @@
         "id": 33,
         "height": 9,
         "weight": 195,
-        "typing": [
+        "types": [
             "poison"
         ],
         "base_stats": {
@@ -949,7 +949,7 @@
         "id": 34,
         "height": 14,
         "weight": 620,
-        "typing": [
+        "types": [
             "poison",
             "ground"
         ],
@@ -979,7 +979,7 @@
         "id": 35,
         "height": 6,
         "weight": 75,
-        "typing": [
+        "types": [
             "fairy"
         ],
         "base_stats": {
@@ -1008,7 +1008,7 @@
         "id": 36,
         "height": 13,
         "weight": 400,
-        "typing": [
+        "types": [
             "fairy"
         ],
         "base_stats": {
@@ -1037,7 +1037,7 @@
         "id": 37,
         "height": 6,
         "weight": 99,
-        "typing": [
+        "types": [
             "fire"
         ],
         "base_stats": {
@@ -1065,7 +1065,7 @@
         "id": 38,
         "height": 11,
         "weight": 199,
-        "typing": [
+        "types": [
             "fire"
         ],
         "base_stats": {
@@ -1093,7 +1093,7 @@
         "id": 39,
         "height": 5,
         "weight": 55,
-        "typing": [
+        "types": [
             "normal",
             "fairy"
         ],
@@ -1123,7 +1123,7 @@
         "id": 40,
         "height": 10,
         "weight": 120,
-        "typing": [
+        "types": [
             "normal",
             "fairy"
         ],
@@ -1153,7 +1153,7 @@
         "id": 41,
         "height": 8,
         "weight": 75,
-        "typing": [
+        "types": [
             "poison",
             "flying"
         ],
@@ -1182,7 +1182,7 @@
         "id": 42,
         "height": 16,
         "weight": 550,
-        "typing": [
+        "types": [
             "poison",
             "flying"
         ],
@@ -1211,7 +1211,7 @@
         "id": 43,
         "height": 5,
         "weight": 54,
-        "typing": [
+        "types": [
             "grass",
             "poison"
         ],
@@ -1240,7 +1240,7 @@
         "id": 44,
         "height": 8,
         "weight": 86,
-        "typing": [
+        "types": [
             "grass",
             "poison"
         ],
@@ -1269,7 +1269,7 @@
         "id": 45,
         "height": 12,
         "weight": 186,
-        "typing": [
+        "types": [
             "grass",
             "poison"
         ],
@@ -1298,7 +1298,7 @@
         "id": 46,
         "height": 3,
         "weight": 54,
-        "typing": [
+        "types": [
             "bug",
             "grass"
         ],
@@ -1328,7 +1328,7 @@
         "id": 47,
         "height": 10,
         "weight": 295,
-        "typing": [
+        "types": [
             "bug",
             "grass"
         ],
@@ -1358,7 +1358,7 @@
         "id": 48,
         "height": 10,
         "weight": 300,
-        "typing": [
+        "types": [
             "bug",
             "poison"
         ],
@@ -1388,7 +1388,7 @@
         "id": 49,
         "height": 15,
         "weight": 125,
-        "typing": [
+        "types": [
             "bug",
             "poison"
         ],
@@ -1418,7 +1418,7 @@
         "id": 50,
         "height": 2,
         "weight": 8,
-        "typing": [
+        "types": [
             "ground"
         ],
         "base_stats": {
@@ -1447,7 +1447,7 @@
         "id": 51,
         "height": 7,
         "weight": 333,
-        "typing": [
+        "types": [
             "ground"
         ],
         "base_stats": {
@@ -1476,7 +1476,7 @@
         "id": 52,
         "height": 4,
         "weight": 42,
-        "typing": [
+        "types": [
             "normal"
         ],
         "base_stats": {
@@ -1505,7 +1505,7 @@
         "id": 53,
         "height": 10,
         "weight": 320,
-        "typing": [
+        "types": [
             "normal"
         ],
         "base_stats": {
@@ -1534,7 +1534,7 @@
         "id": 54,
         "height": 8,
         "weight": 196,
-        "typing": [
+        "types": [
             "water"
         ],
         "base_stats": {
@@ -1563,7 +1563,7 @@
         "id": 55,
         "height": 17,
         "weight": 766,
-        "typing": [
+        "types": [
             "water"
         ],
         "base_stats": {
@@ -1592,7 +1592,7 @@
         "id": 56,
         "height": 5,
         "weight": 280,
-        "typing": [
+        "types": [
             "fighting"
         ],
         "base_stats": {
@@ -1621,7 +1621,7 @@
         "id": 57,
         "height": 10,
         "weight": 320,
-        "typing": [
+        "types": [
             "fighting"
         ],
         "base_stats": {
@@ -1650,7 +1650,7 @@
         "id": 58,
         "height": 7,
         "weight": 190,
-        "typing": [
+        "types": [
             "fire"
         ],
         "base_stats": {
@@ -1679,7 +1679,7 @@
         "id": 59,
         "height": 19,
         "weight": 1550,
-        "typing": [
+        "types": [
             "fire"
         ],
         "base_stats": {
@@ -1708,7 +1708,7 @@
         "id": 60,
         "height": 6,
         "weight": 124,
-        "typing": [
+        "types": [
             "water"
         ],
         "base_stats": {
@@ -1737,7 +1737,7 @@
         "id": 61,
         "height": 10,
         "weight": 200,
-        "typing": [
+        "types": [
             "water"
         ],
         "base_stats": {
@@ -1766,7 +1766,7 @@
         "id": 62,
         "height": 13,
         "weight": 540,
-        "typing": [
+        "types": [
             "water",
             "fighting"
         ],
@@ -1796,7 +1796,7 @@
         "id": 63,
         "height": 9,
         "weight": 195,
-        "typing": [
+        "types": [
             "psychic"
         ],
         "base_stats": {
@@ -1825,7 +1825,7 @@
         "id": 64,
         "height": 13,
         "weight": 565,
-        "typing": [
+        "types": [
             "psychic"
         ],
         "base_stats": {
@@ -1854,7 +1854,7 @@
         "id": 65,
         "height": 15,
         "weight": 480,
-        "typing": [
+        "types": [
             "psychic"
         ],
         "base_stats": {
@@ -1883,7 +1883,7 @@
         "id": 66,
         "height": 8,
         "weight": 195,
-        "typing": [
+        "types": [
             "fighting"
         ],
         "base_stats": {
@@ -1912,7 +1912,7 @@
         "id": 67,
         "height": 15,
         "weight": 705,
-        "typing": [
+        "types": [
             "fighting"
         ],
         "base_stats": {
@@ -1941,7 +1941,7 @@
         "id": 68,
         "height": 16,
         "weight": 1300,
-        "typing": [
+        "types": [
             "fighting"
         ],
         "base_stats": {
@@ -1970,7 +1970,7 @@
         "id": 69,
         "height": 7,
         "weight": 40,
-        "typing": [
+        "types": [
             "grass",
             "poison"
         ],
@@ -1999,7 +1999,7 @@
         "id": 70,
         "height": 10,
         "weight": 64,
-        "typing": [
+        "types": [
             "grass",
             "poison"
         ],
@@ -2028,7 +2028,7 @@
         "id": 71,
         "height": 17,
         "weight": 155,
-        "typing": [
+        "types": [
             "grass",
             "poison"
         ],
@@ -2057,7 +2057,7 @@
         "id": 72,
         "height": 9,
         "weight": 455,
-        "typing": [
+        "types": [
             "water",
             "poison"
         ],
@@ -2087,7 +2087,7 @@
         "id": 73,
         "height": 16,
         "weight": 550,
-        "typing": [
+        "types": [
             "water",
             "poison"
         ],
@@ -2117,7 +2117,7 @@
         "id": 74,
         "height": 4,
         "weight": 200,
-        "typing": [
+        "types": [
             "rock",
             "ground"
         ],
@@ -2147,7 +2147,7 @@
         "id": 75,
         "height": 10,
         "weight": 1050,
-        "typing": [
+        "types": [
             "rock",
             "ground"
         ],
@@ -2177,7 +2177,7 @@
         "id": 76,
         "height": 14,
         "weight": 3000,
-        "typing": [
+        "types": [
             "rock",
             "ground"
         ],
@@ -2207,7 +2207,7 @@
         "id": 77,
         "height": 10,
         "weight": 300,
-        "typing": [
+        "types": [
             "fire"
         ],
         "base_stats": {
@@ -2236,7 +2236,7 @@
         "id": 78,
         "height": 17,
         "weight": 950,
-        "typing": [
+        "types": [
             "fire"
         ],
         "base_stats": {
@@ -2265,7 +2265,7 @@
         "id": 79,
         "height": 12,
         "weight": 360,
-        "typing": [
+        "types": [
             "water",
             "psychic"
         ],
@@ -2295,7 +2295,7 @@
         "id": 80,
         "height": 16,
         "weight": 785,
-        "typing": [
+        "types": [
             "water",
             "psychic"
         ],
@@ -2325,7 +2325,7 @@
         "id": 81,
         "height": 3,
         "weight": 60,
-        "typing": [
+        "types": [
             "electric",
             "steel"
         ],
@@ -2355,7 +2355,7 @@
         "id": 82,
         "height": 10,
         "weight": 600,
-        "typing": [
+        "types": [
             "electric",
             "steel"
         ],
@@ -2385,7 +2385,7 @@
         "id": 83,
         "height": 8,
         "weight": 150,
-        "typing": [
+        "types": [
             "normal",
             "flying"
         ],
@@ -2415,7 +2415,7 @@
         "id": 84,
         "height": 14,
         "weight": 392,
-        "typing": [
+        "types": [
             "normal",
             "flying"
         ],
@@ -2445,7 +2445,7 @@
         "id": 85,
         "height": 18,
         "weight": 852,
-        "typing": [
+        "types": [
             "normal",
             "flying"
         ],
@@ -2475,7 +2475,7 @@
         "id": 86,
         "height": 11,
         "weight": 900,
-        "typing": [
+        "types": [
             "water"
         ],
         "base_stats": {
@@ -2504,7 +2504,7 @@
         "id": 87,
         "height": 17,
         "weight": 1200,
-        "typing": [
+        "types": [
             "water",
             "ice"
         ],
@@ -2534,7 +2534,7 @@
         "id": 88,
         "height": 9,
         "weight": 300,
-        "typing": [
+        "types": [
             "poison"
         ],
         "base_stats": {
@@ -2563,7 +2563,7 @@
         "id": 89,
         "height": 12,
         "weight": 300,
-        "typing": [
+        "types": [
             "poison"
         ],
         "base_stats": {
@@ -2592,7 +2592,7 @@
         "id": 90,
         "height": 3,
         "weight": 40,
-        "typing": [
+        "types": [
             "water"
         ],
         "base_stats": {
@@ -2621,7 +2621,7 @@
         "id": 91,
         "height": 15,
         "weight": 1325,
-        "typing": [
+        "types": [
             "water",
             "ice"
         ],
@@ -2651,7 +2651,7 @@
         "id": 92,
         "height": 13,
         "weight": 1,
-        "typing": [
+        "types": [
             "ghost",
             "poison"
         ],
@@ -2678,7 +2678,7 @@
         "id": 93,
         "height": 16,
         "weight": 1,
-        "typing": [
+        "types": [
             "ghost",
             "poison"
         ],
@@ -2705,7 +2705,7 @@
         "id": 94,
         "height": 15,
         "weight": 405,
-        "typing": [
+        "types": [
             "ghost",
             "poison"
         ],
@@ -2732,7 +2732,7 @@
         "id": 95,
         "height": 88,
         "weight": 2100,
-        "typing": [
+        "types": [
             "rock",
             "ground"
         ],
@@ -2762,7 +2762,7 @@
         "id": 96,
         "height": 10,
         "weight": 324,
-        "typing": [
+        "types": [
             "psychic"
         ],
         "base_stats": {
@@ -2791,7 +2791,7 @@
         "id": 97,
         "height": 16,
         "weight": 756,
-        "typing": [
+        "types": [
             "psychic"
         ],
         "base_stats": {
@@ -2820,7 +2820,7 @@
         "id": 98,
         "height": 4,
         "weight": 65,
-        "typing": [
+        "types": [
             "water"
         ],
         "base_stats": {
@@ -2849,7 +2849,7 @@
         "id": 99,
         "height": 13,
         "weight": 600,
-        "typing": [
+        "types": [
             "water"
         ],
         "base_stats": {
@@ -2878,7 +2878,7 @@
         "id": 100,
         "height": 5,
         "weight": 104,
-        "typing": [
+        "types": [
             "electric"
         ],
         "base_stats": {
@@ -2907,7 +2907,7 @@
         "id": 101,
         "height": 12,
         "weight": 666,
-        "typing": [
+        "types": [
             "electric"
         ],
         "base_stats": {
@@ -2936,7 +2936,7 @@
         "id": 102,
         "height": 4,
         "weight": 25,
-        "typing": [
+        "types": [
             "grass",
             "psychic"
         ],
@@ -2965,7 +2965,7 @@
         "id": 103,
         "height": 20,
         "weight": 1200,
-        "typing": [
+        "types": [
             "grass",
             "psychic"
         ],
@@ -2994,7 +2994,7 @@
         "id": 104,
         "height": 4,
         "weight": 65,
-        "typing": [
+        "types": [
             "ground"
         ],
         "base_stats": {
@@ -3023,7 +3023,7 @@
         "id": 105,
         "height": 10,
         "weight": 450,
-        "typing": [
+        "types": [
             "ground"
         ],
         "base_stats": {
@@ -3052,7 +3052,7 @@
         "id": 106,
         "height": 15,
         "weight": 498,
-        "typing": [
+        "types": [
             "fighting"
         ],
         "base_stats": {
@@ -3081,7 +3081,7 @@
         "id": 107,
         "height": 14,
         "weight": 502,
-        "typing": [
+        "types": [
             "fighting"
         ],
         "base_stats": {
@@ -3110,7 +3110,7 @@
         "id": 108,
         "height": 12,
         "weight": 655,
-        "typing": [
+        "types": [
             "normal"
         ],
         "base_stats": {
@@ -3139,7 +3139,7 @@
         "id": 109,
         "height": 6,
         "weight": 10,
-        "typing": [
+        "types": [
             "poison"
         ],
         "base_stats": {
@@ -3168,7 +3168,7 @@
         "id": 110,
         "height": 12,
         "weight": 95,
-        "typing": [
+        "types": [
             "poison"
         ],
         "base_stats": {
@@ -3197,7 +3197,7 @@
         "id": 111,
         "height": 10,
         "weight": 1150,
-        "typing": [
+        "types": [
             "ground",
             "rock"
         ],
@@ -3227,7 +3227,7 @@
         "id": 112,
         "height": 19,
         "weight": 1200,
-        "typing": [
+        "types": [
             "ground",
             "rock"
         ],
@@ -3257,7 +3257,7 @@
         "id": 113,
         "height": 11,
         "weight": 346,
-        "typing": [
+        "types": [
             "normal"
         ],
         "base_stats": {
@@ -3286,7 +3286,7 @@
         "id": 114,
         "height": 10,
         "weight": 350,
-        "typing": [
+        "types": [
             "grass"
         ],
         "base_stats": {
@@ -3315,7 +3315,7 @@
         "id": 115,
         "height": 22,
         "weight": 800,
-        "typing": [
+        "types": [
             "normal"
         ],
         "base_stats": {
@@ -3344,7 +3344,7 @@
         "id": 116,
         "height": 4,
         "weight": 80,
-        "typing": [
+        "types": [
             "water"
         ],
         "base_stats": {
@@ -3373,7 +3373,7 @@
         "id": 117,
         "height": 12,
         "weight": 250,
-        "typing": [
+        "types": [
             "water"
         ],
         "base_stats": {
@@ -3402,7 +3402,7 @@
         "id": 118,
         "height": 6,
         "weight": 150,
-        "typing": [
+        "types": [
             "water"
         ],
         "base_stats": {
@@ -3431,7 +3431,7 @@
         "id": 119,
         "height": 13,
         "weight": 390,
-        "typing": [
+        "types": [
             "water"
         ],
         "base_stats": {
@@ -3460,7 +3460,7 @@
         "id": 120,
         "height": 8,
         "weight": 345,
-        "typing": [
+        "types": [
             "water"
         ],
         "base_stats": {
@@ -3489,7 +3489,7 @@
         "id": 121,
         "height": 11,
         "weight": 800,
-        "typing": [
+        "types": [
             "water",
             "psychic"
         ],
@@ -3519,7 +3519,7 @@
         "id": 122,
         "height": 13,
         "weight": 545,
-        "typing": [
+        "types": [
             "psychic",
             "fairy"
         ],
@@ -3549,7 +3549,7 @@
         "id": 123,
         "height": 15,
         "weight": 560,
-        "typing": [
+        "types": [
             "bug",
             "flying"
         ],
@@ -3579,7 +3579,7 @@
         "id": 124,
         "height": 14,
         "weight": 406,
-        "typing": [
+        "types": [
             "ice",
             "psychic"
         ],
@@ -3609,7 +3609,7 @@
         "id": 125,
         "height": 11,
         "weight": 300,
-        "typing": [
+        "types": [
             "electric"
         ],
         "base_stats": {
@@ -3637,7 +3637,7 @@
         "id": 126,
         "height": 13,
         "weight": 445,
-        "typing": [
+        "types": [
             "fire"
         ],
         "base_stats": {
@@ -3665,7 +3665,7 @@
         "id": 127,
         "height": 15,
         "weight": 550,
-        "typing": [
+        "types": [
             "bug"
         ],
         "base_stats": {
@@ -3694,7 +3694,7 @@
         "id": 128,
         "height": 14,
         "weight": 884,
-        "typing": [
+        "types": [
             "normal"
         ],
         "base_stats": {
@@ -3723,7 +3723,7 @@
         "id": 129,
         "height": 9,
         "weight": 100,
-        "typing": [
+        "types": [
             "water"
         ],
         "base_stats": {
@@ -3751,7 +3751,7 @@
         "id": 130,
         "height": 65,
         "weight": 2350,
-        "typing": [
+        "types": [
             "water",
             "flying"
         ],
@@ -3780,7 +3780,7 @@
         "id": 131,
         "height": 25,
         "weight": 2200,
-        "typing": [
+        "types": [
             "water",
             "ice"
         ],
@@ -3810,7 +3810,7 @@
         "id": 132,
         "height": 3,
         "weight": 40,
-        "typing": [
+        "types": [
             "normal"
         ],
         "base_stats": {
@@ -3838,7 +3838,7 @@
         "id": 133,
         "height": 3,
         "weight": 65,
-        "typing": [
+        "types": [
             "normal"
         ],
         "base_stats": {
@@ -3867,7 +3867,7 @@
         "id": 134,
         "height": 10,
         "weight": 290,
-        "typing": [
+        "types": [
             "water"
         ],
         "base_stats": {
@@ -3895,7 +3895,7 @@
         "id": 135,
         "height": 8,
         "weight": 245,
-        "typing": [
+        "types": [
             "electric"
         ],
         "base_stats": {
@@ -3923,7 +3923,7 @@
         "id": 136,
         "height": 9,
         "weight": 250,
-        "typing": [
+        "types": [
             "fire"
         ],
         "base_stats": {
@@ -3951,7 +3951,7 @@
         "id": 137,
         "height": 8,
         "weight": 365,
-        "typing": [
+        "types": [
             "normal"
         ],
         "base_stats": {
@@ -3980,7 +3980,7 @@
         "id": 138,
         "height": 4,
         "weight": 75,
-        "typing": [
+        "types": [
             "rock",
             "water"
         ],
@@ -4010,7 +4010,7 @@
         "id": 139,
         "height": 10,
         "weight": 350,
-        "typing": [
+        "types": [
             "rock",
             "water"
         ],
@@ -4040,7 +4040,7 @@
         "id": 140,
         "height": 5,
         "weight": 115,
-        "typing": [
+        "types": [
             "rock",
             "water"
         ],
@@ -4070,7 +4070,7 @@
         "id": 141,
         "height": 13,
         "weight": 405,
-        "typing": [
+        "types": [
             "rock",
             "water"
         ],
@@ -4100,7 +4100,7 @@
         "id": 142,
         "height": 18,
         "weight": 590,
-        "typing": [
+        "types": [
             "rock",
             "flying"
         ],
@@ -4130,7 +4130,7 @@
         "id": 143,
         "height": 21,
         "weight": 4600,
-        "typing": [
+        "types": [
             "normal"
         ],
         "base_stats": {
@@ -4159,7 +4159,7 @@
         "id": 144,
         "height": 17,
         "weight": 554,
-        "typing": [
+        "types": [
             "ice",
             "flying"
         ],
@@ -4188,7 +4188,7 @@
         "id": 145,
         "height": 16,
         "weight": 526,
-        "typing": [
+        "types": [
             "electric",
             "flying"
         ],
@@ -4217,7 +4217,7 @@
         "id": 146,
         "height": 20,
         "weight": 600,
-        "typing": [
+        "types": [
             "fire",
             "flying"
         ],
@@ -4246,7 +4246,7 @@
         "id": 147,
         "height": 18,
         "weight": 33,
-        "typing": [
+        "types": [
             "dragon"
         ],
         "base_stats": {
@@ -4274,7 +4274,7 @@
         "id": 148,
         "height": 40,
         "weight": 165,
-        "typing": [
+        "types": [
             "dragon"
         ],
         "base_stats": {
@@ -4302,7 +4302,7 @@
         "id": 149,
         "height": 22,
         "weight": 2100,
-        "typing": [
+        "types": [
             "dragon",
             "flying"
         ],
@@ -4331,7 +4331,7 @@
         "id": 150,
         "height": 20,
         "weight": 1220,
-        "typing": [
+        "types": [
             "psychic"
         ],
         "base_stats": {
@@ -4359,7 +4359,7 @@
         "id": 151,
         "height": 4,
         "weight": 40,
-        "typing": [
+        "types": [
             "psychic"
         ],
         "base_stats": {

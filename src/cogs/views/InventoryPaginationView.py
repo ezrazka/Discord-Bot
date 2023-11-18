@@ -19,6 +19,13 @@ class InventoryPaginationView(discord.ui.View):
     def get_pages(self):
         pages = []
 
+        if self.n_pages == 0:
+            return [discord.Embed(
+                title=f"{self.ctx.author.name}'s Inventory",
+                description=f"This user currently has no pokemon!",
+                color=0xffff00
+            )]
+
         for i in range(self.n_pages):
             lower_bound = i * self.n_per_page + 1
             upper_bound = min((i + 1) * self.n_per_page, self.n_pokemon)
@@ -45,10 +52,10 @@ class InventoryPaginationView(discord.ui.View):
         next_button = self.children[2]
         last_button = self.children[3]
 
-        first_button.disabled = self.n_pages == 1 or self.current_page == 0
-        prev_button.disabled = self.n_pages == 1
-        next_button.disabled = self.n_pages == 1
-        last_button.disabled = self.n_pages == 1 or self.current_page == self.n_pages - 1
+        first_button.disabled = self.n_pages <= 1 or self.current_page == 0
+        prev_button.disabled = self.n_pages <= 1
+        next_button.disabled = self.n_pages <= 1
+        last_button.disabled = self.n_pages <= 1 or self.current_page == self.n_pages - 1
 
     async def check_author(self, interaction):
         return interaction.user.id == self.ctx.author.id

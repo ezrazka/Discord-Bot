@@ -23,6 +23,37 @@ def get_cases(string):
     return list(dict.fromkeys(output))
 
 
+def parse_time(time):
+    days = time // (60 * 60 * 24)
+    time %= (60 * 60 * 24)
+    hours = time // (60 * 60)
+    time %= (60 * 60)
+    minutes = time // 60
+    time %= 60
+    seconds = time
+
+    time_parts = []
+
+    if days:
+        time_parts.append(f"{days} {'day' if days == 1 else 'days'}")
+    if hours:
+        time_parts.append(f"{hours} {'hour' if hours == 1 else 'hours'}")
+    if minutes:
+        time_parts.append(
+            f"{minutes} {'minute' if minutes == 1 else 'minutes'}")
+    if seconds:
+        time_parts.append(
+            f"{seconds} {'second' if seconds == 1 else 'seconds'}")
+
+    if len(time_parts) == 0:
+        return "0 seconds"
+    if len(time_parts) == 1:
+        return time_parts[0]
+    if len(time_parts) == 2:
+        return f"{time_parts[0]} and {time_parts[1]}"
+    return f"{', '.join(time_parts[:-1])}, and {time_parts[-1]}"
+
+
 def get_extensions():
     extensions = []
     for directory in os.listdir("src/cogs"):
