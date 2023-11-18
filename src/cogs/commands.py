@@ -1,14 +1,11 @@
 import discord
 from discord.ext import commands
-from discord.ui import Button, View
 import asyncio
 import json
-import os
 import random
-import math
 
 from .. import bot
-from ..views.InventoryPaginationView import InventoryPaginationView
+from .views.InventoryPaginationView import InventoryPaginationView
 from ..utils.database import add_user, add_pokemon, exists_user, get_owned_pokemon
 
 
@@ -88,6 +85,7 @@ class Commands(commands.Cog):
             discord_id = message.author.id
             if not exists_user(discord_id):
                 add_user(discord_id)
+
             add_pokemon(discord_id, pokemon_name, ability, is_shiny)
 
             return await ctx.send(embed=discord.Embed(

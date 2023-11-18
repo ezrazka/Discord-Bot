@@ -1,3 +1,6 @@
+import os
+
+
 def get_cases(string):
 
     def invert_case(letter):
@@ -18,3 +21,18 @@ def get_cases(string):
             case += str(string[index])
         output.append(case)
     return list(dict.fromkeys(output))
+
+
+def get_extensions():
+    extensions = []
+    for directory in os.listdir("src/cogs"):
+        if directory.endswith(".py"):
+            extensions.append(f"src.cogs.{directory[:-3]}")
+
+        if os.path.isdir(directory):
+            for inner_directory in os.listdir(directory):
+                if inner_directory.endswith(".py"):
+                    extensions.append(
+                        f"src.cogs.{directory}.{inner_directory[:-3]}")
+
+    return extensions
