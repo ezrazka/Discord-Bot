@@ -1,0 +1,4384 @@
+{
+    "bulbasaur": {
+        "id": 1,
+        "height": 7,
+        "weight": 69,
+        "typing": [
+            "grass",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 45,
+            "attack": 49,
+            "defense": 49,
+            "special-attack": 65,
+            "special-defense": 65,
+            "speed": 45
+        },
+        "abilities": {
+            "normal": [
+                "overgrow"
+            ],
+            "hidden": [
+                "chlorophyll"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/bulbasaur.png",
+            "shiny": "src/data/sprites/shiny/bulbasaur.png"
+        }
+    },
+    "ivysaur": {
+        "id": 2,
+        "height": 10,
+        "weight": 130,
+        "typing": [
+            "grass",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "attack": 62,
+            "defense": 63,
+            "special-attack": 80,
+            "special-defense": 80,
+            "speed": 60
+        },
+        "abilities": {
+            "normal": [
+                "overgrow"
+            ],
+            "hidden": [
+                "chlorophyll"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/ivysaur.png",
+            "shiny": "src/data/sprites/shiny/ivysaur.png"
+        }
+    },
+    "venusaur": {
+        "id": 3,
+        "height": 20,
+        "weight": 1000,
+        "typing": [
+            "grass",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 80,
+            "attack": 82,
+            "defense": 83,
+            "special-attack": 100,
+            "special-defense": 100,
+            "speed": 80
+        },
+        "abilities": {
+            "normal": [
+                "overgrow"
+            ],
+            "hidden": [
+                "chlorophyll"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/venusaur.png",
+            "shiny": "src/data/sprites/shiny/venusaur.png"
+        }
+    },
+    "charmander": {
+        "id": 4,
+        "height": 6,
+        "weight": 85,
+        "typing": [
+            "fire"
+        ],
+        "base_stats": {
+            "hp": 39,
+            "attack": 52,
+            "defense": 43,
+            "special-attack": 60,
+            "special-defense": 50,
+            "speed": 65
+        },
+        "abilities": {
+            "normal": [
+                "blaze"
+            ],
+            "hidden": [
+                "solar-power"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/charmander.png",
+            "shiny": "src/data/sprites/shiny/charmander.png"
+        }
+    },
+    "charmeleon": {
+        "id": 5,
+        "height": 11,
+        "weight": 190,
+        "typing": [
+            "fire"
+        ],
+        "base_stats": {
+            "hp": 58,
+            "attack": 64,
+            "defense": 58,
+            "special-attack": 80,
+            "special-defense": 65,
+            "speed": 80
+        },
+        "abilities": {
+            "normal": [
+                "blaze"
+            ],
+            "hidden": [
+                "solar-power"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/charmeleon.png",
+            "shiny": "src/data/sprites/shiny/charmeleon.png"
+        }
+    },
+    "charizard": {
+        "id": 6,
+        "height": 17,
+        "weight": 905,
+        "typing": [
+            "fire",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 78,
+            "attack": 84,
+            "defense": 78,
+            "special-attack": 109,
+            "special-defense": 85,
+            "speed": 100
+        },
+        "abilities": {
+            "normal": [
+                "blaze"
+            ],
+            "hidden": [
+                "solar-power"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/charizard.png",
+            "shiny": "src/data/sprites/shiny/charizard.png"
+        }
+    },
+    "squirtle": {
+        "id": 7,
+        "height": 5,
+        "weight": 90,
+        "typing": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 44,
+            "attack": 48,
+            "defense": 65,
+            "special-attack": 50,
+            "special-defense": 64,
+            "speed": 43
+        },
+        "abilities": {
+            "normal": [
+                "torrent"
+            ],
+            "hidden": [
+                "rain-dish"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/squirtle.png",
+            "shiny": "src/data/sprites/shiny/squirtle.png"
+        }
+    },
+    "wartortle": {
+        "id": 8,
+        "height": 10,
+        "weight": 225,
+        "typing": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 59,
+            "attack": 63,
+            "defense": 80,
+            "special-attack": 65,
+            "special-defense": 80,
+            "speed": 58
+        },
+        "abilities": {
+            "normal": [
+                "torrent"
+            ],
+            "hidden": [
+                "rain-dish"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/wartortle.png",
+            "shiny": "src/data/sprites/shiny/wartortle.png"
+        }
+    },
+    "blastoise": {
+        "id": 9,
+        "height": 16,
+        "weight": 855,
+        "typing": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 79,
+            "attack": 83,
+            "defense": 100,
+            "special-attack": 85,
+            "special-defense": 105,
+            "speed": 78
+        },
+        "abilities": {
+            "normal": [
+                "torrent"
+            ],
+            "hidden": [
+                "rain-dish"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/blastoise.png",
+            "shiny": "src/data/sprites/shiny/blastoise.png"
+        }
+    },
+    "caterpie": {
+        "id": 10,
+        "height": 3,
+        "weight": 29,
+        "typing": [
+            "bug"
+        ],
+        "base_stats": {
+            "hp": 45,
+            "attack": 30,
+            "defense": 35,
+            "special-attack": 20,
+            "special-defense": 20,
+            "speed": 45
+        },
+        "abilities": {
+            "normal": [
+                "shield-dust"
+            ],
+            "hidden": [
+                "run-away"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/caterpie.png",
+            "shiny": "src/data/sprites/shiny/caterpie.png"
+        }
+    },
+    "metapod": {
+        "id": 11,
+        "height": 7,
+        "weight": 99,
+        "typing": [
+            "bug"
+        ],
+        "base_stats": {
+            "hp": 50,
+            "attack": 20,
+            "defense": 55,
+            "special-attack": 25,
+            "special-defense": 25,
+            "speed": 30
+        },
+        "abilities": {
+            "normal": [
+                "shed-skin"
+            ],
+            "hidden": []
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/metapod.png",
+            "shiny": "src/data/sprites/shiny/metapod.png"
+        }
+    },
+    "butterfree": {
+        "id": 12,
+        "height": 11,
+        "weight": 320,
+        "typing": [
+            "bug",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "attack": 45,
+            "defense": 50,
+            "special-attack": 90,
+            "special-defense": 80,
+            "speed": 70
+        },
+        "abilities": {
+            "normal": [
+                "compound-eyes"
+            ],
+            "hidden": [
+                "tinted-lens"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/butterfree.png",
+            "shiny": "src/data/sprites/shiny/butterfree.png"
+        }
+    },
+    "weedle": {
+        "id": 13,
+        "height": 3,
+        "weight": 32,
+        "typing": [
+            "bug",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "attack": 35,
+            "defense": 30,
+            "special-attack": 20,
+            "special-defense": 20,
+            "speed": 50
+        },
+        "abilities": {
+            "normal": [
+                "shield-dust"
+            ],
+            "hidden": [
+                "run-away"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/weedle.png",
+            "shiny": "src/data/sprites/shiny/weedle.png"
+        }
+    },
+    "kakuna": {
+        "id": 14,
+        "height": 6,
+        "weight": 100,
+        "typing": [
+            "bug",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 45,
+            "attack": 25,
+            "defense": 50,
+            "special-attack": 25,
+            "special-defense": 25,
+            "speed": 35
+        },
+        "abilities": {
+            "normal": [
+                "shed-skin"
+            ],
+            "hidden": []
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/kakuna.png",
+            "shiny": "src/data/sprites/shiny/kakuna.png"
+        }
+    },
+    "beedrill": {
+        "id": 15,
+        "height": 10,
+        "weight": 295,
+        "typing": [
+            "bug",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 90,
+            "defense": 40,
+            "special-attack": 45,
+            "special-defense": 80,
+            "speed": 75
+        },
+        "abilities": {
+            "normal": [
+                "swarm"
+            ],
+            "hidden": [
+                "sniper"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/beedrill.png",
+            "shiny": "src/data/sprites/shiny/beedrill.png"
+        }
+    },
+    "pidgey": {
+        "id": 16,
+        "height": 3,
+        "weight": 18,
+        "typing": [
+            "normal",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "attack": 45,
+            "defense": 40,
+            "special-attack": 35,
+            "special-defense": 35,
+            "speed": 56
+        },
+        "abilities": {
+            "normal": [
+                "keen-eye",
+                "tangled-feet"
+            ],
+            "hidden": [
+                "big-pecks"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/pidgey.png",
+            "shiny": "src/data/sprites/shiny/pidgey.png"
+        }
+    },
+    "pidgeotto": {
+        "id": 17,
+        "height": 11,
+        "weight": 300,
+        "typing": [
+            "normal",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 63,
+            "attack": 60,
+            "defense": 55,
+            "special-attack": 50,
+            "special-defense": 50,
+            "speed": 71
+        },
+        "abilities": {
+            "normal": [
+                "keen-eye",
+                "tangled-feet"
+            ],
+            "hidden": [
+                "big-pecks"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/pidgeotto.png",
+            "shiny": "src/data/sprites/shiny/pidgeotto.png"
+        }
+    },
+    "pidgeot": {
+        "id": 18,
+        "height": 15,
+        "weight": 395,
+        "typing": [
+            "normal",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 83,
+            "attack": 80,
+            "defense": 75,
+            "special-attack": 70,
+            "special-defense": 70,
+            "speed": 101
+        },
+        "abilities": {
+            "normal": [
+                "keen-eye",
+                "tangled-feet"
+            ],
+            "hidden": [
+                "big-pecks"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/pidgeot.png",
+            "shiny": "src/data/sprites/shiny/pidgeot.png"
+        }
+    },
+    "rattata": {
+        "id": 19,
+        "height": 3,
+        "weight": 35,
+        "typing": [
+            "normal"
+        ],
+        "base_stats": {
+            "hp": 30,
+            "attack": 56,
+            "defense": 35,
+            "special-attack": 25,
+            "special-defense": 35,
+            "speed": 72
+        },
+        "abilities": {
+            "normal": [
+                "run-away",
+                "guts"
+            ],
+            "hidden": [
+                "hustle"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/rattata.png",
+            "shiny": "src/data/sprites/shiny/rattata.png"
+        }
+    },
+    "raticate": {
+        "id": 20,
+        "height": 7,
+        "weight": 185,
+        "typing": [
+            "normal"
+        ],
+        "base_stats": {
+            "hp": 55,
+            "attack": 81,
+            "defense": 60,
+            "special-attack": 50,
+            "special-defense": 70,
+            "speed": 97
+        },
+        "abilities": {
+            "normal": [
+                "run-away",
+                "guts"
+            ],
+            "hidden": [
+                "hustle"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/raticate.png",
+            "shiny": "src/data/sprites/shiny/raticate.png"
+        }
+    },
+    "spearow": {
+        "id": 21,
+        "height": 3,
+        "weight": 20,
+        "typing": [
+            "normal",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "attack": 60,
+            "defense": 30,
+            "special-attack": 31,
+            "special-defense": 31,
+            "speed": 70
+        },
+        "abilities": {
+            "normal": [
+                "keen-eye"
+            ],
+            "hidden": [
+                "sniper"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/spearow.png",
+            "shiny": "src/data/sprites/shiny/spearow.png"
+        }
+    },
+    "fearow": {
+        "id": 22,
+        "height": 12,
+        "weight": 380,
+        "typing": [
+            "normal",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 90,
+            "defense": 65,
+            "special-attack": 61,
+            "special-defense": 61,
+            "speed": 100
+        },
+        "abilities": {
+            "normal": [
+                "keen-eye"
+            ],
+            "hidden": [
+                "sniper"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/fearow.png",
+            "shiny": "src/data/sprites/shiny/fearow.png"
+        }
+    },
+    "ekans": {
+        "id": 23,
+        "height": 20,
+        "weight": 69,
+        "typing": [
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 35,
+            "attack": 60,
+            "defense": 44,
+            "special-attack": 40,
+            "special-defense": 54,
+            "speed": 55
+        },
+        "abilities": {
+            "normal": [
+                "intimidate",
+                "shed-skin"
+            ],
+            "hidden": [
+                "unnerve"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/ekans.png",
+            "shiny": "src/data/sprites/shiny/ekans.png"
+        }
+    },
+    "arbok": {
+        "id": 24,
+        "height": 35,
+        "weight": 650,
+        "typing": [
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "attack": 95,
+            "defense": 69,
+            "special-attack": 65,
+            "special-defense": 79,
+            "speed": 80
+        },
+        "abilities": {
+            "normal": [
+                "intimidate",
+                "shed-skin"
+            ],
+            "hidden": [
+                "unnerve"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/arbok.png",
+            "shiny": "src/data/sprites/shiny/arbok.png"
+        }
+    },
+    "pikachu": {
+        "id": 25,
+        "height": 4,
+        "weight": 60,
+        "typing": [
+            "electric"
+        ],
+        "base_stats": {
+            "hp": 35,
+            "attack": 55,
+            "defense": 40,
+            "special-attack": 50,
+            "special-defense": 50,
+            "speed": 90
+        },
+        "abilities": {
+            "normal": [
+                "static"
+            ],
+            "hidden": [
+                "lightning-rod"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/pikachu.png",
+            "shiny": "src/data/sprites/shiny/pikachu.png"
+        }
+    },
+    "raichu": {
+        "id": 26,
+        "height": 8,
+        "weight": 300,
+        "typing": [
+            "electric"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "attack": 90,
+            "defense": 55,
+            "special-attack": 90,
+            "special-defense": 80,
+            "speed": 110
+        },
+        "abilities": {
+            "normal": [
+                "static"
+            ],
+            "hidden": [
+                "lightning-rod"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/raichu.png",
+            "shiny": "src/data/sprites/shiny/raichu.png"
+        }
+    },
+    "sandshrew": {
+        "id": 27,
+        "height": 6,
+        "weight": 120,
+        "typing": [
+            "ground"
+        ],
+        "base_stats": {
+            "hp": 50,
+            "attack": 75,
+            "defense": 85,
+            "special-attack": 20,
+            "special-defense": 30,
+            "speed": 40
+        },
+        "abilities": {
+            "normal": [
+                "sand-veil"
+            ],
+            "hidden": [
+                "sand-rush"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/sandshrew.png",
+            "shiny": "src/data/sprites/shiny/sandshrew.png"
+        }
+    },
+    "sandslash": {
+        "id": 28,
+        "height": 10,
+        "weight": 295,
+        "typing": [
+            "ground"
+        ],
+        "base_stats": {
+            "hp": 75,
+            "attack": 100,
+            "defense": 110,
+            "special-attack": 45,
+            "special-defense": 55,
+            "speed": 65
+        },
+        "abilities": {
+            "normal": [
+                "sand-veil"
+            ],
+            "hidden": [
+                "sand-rush"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/sandslash.png",
+            "shiny": "src/data/sprites/shiny/sandslash.png"
+        }
+    },
+    "nidoran-f": {
+        "id": 29,
+        "height": 4,
+        "weight": 70,
+        "typing": [
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 55,
+            "attack": 47,
+            "defense": 52,
+            "special-attack": 40,
+            "special-defense": 40,
+            "speed": 41
+        },
+        "abilities": {
+            "normal": [
+                "poison-point",
+                "rivalry"
+            ],
+            "hidden": [
+                "hustle"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/nidoran-f.png",
+            "shiny": "src/data/sprites/shiny/nidoran-f.png"
+        }
+    },
+    "nidorina": {
+        "id": 30,
+        "height": 8,
+        "weight": 200,
+        "typing": [
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 70,
+            "attack": 62,
+            "defense": 67,
+            "special-attack": 55,
+            "special-defense": 55,
+            "speed": 56
+        },
+        "abilities": {
+            "normal": [
+                "poison-point",
+                "rivalry"
+            ],
+            "hidden": [
+                "hustle"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/nidorina.png",
+            "shiny": "src/data/sprites/shiny/nidorina.png"
+        }
+    },
+    "nidoqueen": {
+        "id": 31,
+        "height": 13,
+        "weight": 600,
+        "typing": [
+            "poison",
+            "ground"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "attack": 92,
+            "defense": 87,
+            "special-attack": 75,
+            "special-defense": 85,
+            "speed": 76
+        },
+        "abilities": {
+            "normal": [
+                "poison-point",
+                "rivalry"
+            ],
+            "hidden": [
+                "sheer-force"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/nidoqueen.png",
+            "shiny": "src/data/sprites/shiny/nidoqueen.png"
+        }
+    },
+    "nidoran-m": {
+        "id": 32,
+        "height": 5,
+        "weight": 90,
+        "typing": [
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 46,
+            "attack": 57,
+            "defense": 40,
+            "special-attack": 40,
+            "special-defense": 40,
+            "speed": 50
+        },
+        "abilities": {
+            "normal": [
+                "poison-point",
+                "rivalry"
+            ],
+            "hidden": [
+                "hustle"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/nidoran-m.png",
+            "shiny": "src/data/sprites/shiny/nidoran-m.png"
+        }
+    },
+    "nidorino": {
+        "id": 33,
+        "height": 9,
+        "weight": 195,
+        "typing": [
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 61,
+            "attack": 72,
+            "defense": 57,
+            "special-attack": 55,
+            "special-defense": 55,
+            "speed": 65
+        },
+        "abilities": {
+            "normal": [
+                "poison-point",
+                "rivalry"
+            ],
+            "hidden": [
+                "hustle"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/nidorino.png",
+            "shiny": "src/data/sprites/shiny/nidorino.png"
+        }
+    },
+    "nidoking": {
+        "id": 34,
+        "height": 14,
+        "weight": 620,
+        "typing": [
+            "poison",
+            "ground"
+        ],
+        "base_stats": {
+            "hp": 81,
+            "attack": 102,
+            "defense": 77,
+            "special-attack": 85,
+            "special-defense": 75,
+            "speed": 85
+        },
+        "abilities": {
+            "normal": [
+                "poison-point",
+                "rivalry"
+            ],
+            "hidden": [
+                "sheer-force"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/nidoking.png",
+            "shiny": "src/data/sprites/shiny/nidoking.png"
+        }
+    },
+    "clefairy": {
+        "id": 35,
+        "height": 6,
+        "weight": 75,
+        "typing": [
+            "fairy"
+        ],
+        "base_stats": {
+            "hp": 70,
+            "attack": 45,
+            "defense": 48,
+            "special-attack": 60,
+            "special-defense": 65,
+            "speed": 35
+        },
+        "abilities": {
+            "normal": [
+                "cute-charm",
+                "magic-guard"
+            ],
+            "hidden": [
+                "friend-guard"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/clefairy.png",
+            "shiny": "src/data/sprites/shiny/clefairy.png"
+        }
+    },
+    "clefable": {
+        "id": 36,
+        "height": 13,
+        "weight": 400,
+        "typing": [
+            "fairy"
+        ],
+        "base_stats": {
+            "hp": 95,
+            "attack": 70,
+            "defense": 73,
+            "special-attack": 95,
+            "special-defense": 90,
+            "speed": 60
+        },
+        "abilities": {
+            "normal": [
+                "cute-charm",
+                "magic-guard"
+            ],
+            "hidden": [
+                "unaware"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/clefable.png",
+            "shiny": "src/data/sprites/shiny/clefable.png"
+        }
+    },
+    "vulpix": {
+        "id": 37,
+        "height": 6,
+        "weight": 99,
+        "typing": [
+            "fire"
+        ],
+        "base_stats": {
+            "hp": 38,
+            "attack": 41,
+            "defense": 40,
+            "special-attack": 50,
+            "special-defense": 65,
+            "speed": 65
+        },
+        "abilities": {
+            "normal": [
+                "flash-fire"
+            ],
+            "hidden": [
+                "drought"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/vulpix.png",
+            "shiny": "src/data/sprites/shiny/vulpix.png"
+        }
+    },
+    "ninetales": {
+        "id": 38,
+        "height": 11,
+        "weight": 199,
+        "typing": [
+            "fire"
+        ],
+        "base_stats": {
+            "hp": 73,
+            "attack": 76,
+            "defense": 75,
+            "special-attack": 81,
+            "special-defense": 100,
+            "speed": 100
+        },
+        "abilities": {
+            "normal": [
+                "flash-fire"
+            ],
+            "hidden": [
+                "drought"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/ninetales.png",
+            "shiny": "src/data/sprites/shiny/ninetales.png"
+        }
+    },
+    "jigglypuff": {
+        "id": 39,
+        "height": 5,
+        "weight": 55,
+        "typing": [
+            "normal",
+            "fairy"
+        ],
+        "base_stats": {
+            "hp": 115,
+            "attack": 45,
+            "defense": 20,
+            "special-attack": 45,
+            "special-defense": 25,
+            "speed": 20
+        },
+        "abilities": {
+            "normal": [
+                "cute-charm",
+                "competitive"
+            ],
+            "hidden": [
+                "friend-guard"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/jigglypuff.png",
+            "shiny": "src/data/sprites/shiny/jigglypuff.png"
+        }
+    },
+    "wigglytuff": {
+        "id": 40,
+        "height": 10,
+        "weight": 120,
+        "typing": [
+            "normal",
+            "fairy"
+        ],
+        "base_stats": {
+            "hp": 140,
+            "attack": 70,
+            "defense": 45,
+            "special-attack": 85,
+            "special-defense": 50,
+            "speed": 45
+        },
+        "abilities": {
+            "normal": [
+                "cute-charm",
+                "competitive"
+            ],
+            "hidden": [
+                "frisk"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/wigglytuff.png",
+            "shiny": "src/data/sprites/shiny/wigglytuff.png"
+        }
+    },
+    "zubat": {
+        "id": 41,
+        "height": 8,
+        "weight": 75,
+        "typing": [
+            "poison",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "attack": 45,
+            "defense": 35,
+            "special-attack": 30,
+            "special-defense": 40,
+            "speed": 55
+        },
+        "abilities": {
+            "normal": [
+                "inner-focus"
+            ],
+            "hidden": [
+                "infiltrator"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/zubat.png",
+            "shiny": "src/data/sprites/shiny/zubat.png"
+        }
+    },
+    "golbat": {
+        "id": 42,
+        "height": 16,
+        "weight": 550,
+        "typing": [
+            "poison",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 75,
+            "attack": 80,
+            "defense": 70,
+            "special-attack": 65,
+            "special-defense": 75,
+            "speed": 90
+        },
+        "abilities": {
+            "normal": [
+                "inner-focus"
+            ],
+            "hidden": [
+                "infiltrator"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/golbat.png",
+            "shiny": "src/data/sprites/shiny/golbat.png"
+        }
+    },
+    "oddish": {
+        "id": 43,
+        "height": 5,
+        "weight": 54,
+        "typing": [
+            "grass",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 45,
+            "attack": 50,
+            "defense": 55,
+            "special-attack": 75,
+            "special-defense": 65,
+            "speed": 30
+        },
+        "abilities": {
+            "normal": [
+                "chlorophyll"
+            ],
+            "hidden": [
+                "run-away"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/oddish.png",
+            "shiny": "src/data/sprites/shiny/oddish.png"
+        }
+    },
+    "gloom": {
+        "id": 44,
+        "height": 8,
+        "weight": 86,
+        "typing": [
+            "grass",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "attack": 65,
+            "defense": 70,
+            "special-attack": 85,
+            "special-defense": 75,
+            "speed": 40
+        },
+        "abilities": {
+            "normal": [
+                "chlorophyll"
+            ],
+            "hidden": [
+                "stench"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/gloom.png",
+            "shiny": "src/data/sprites/shiny/gloom.png"
+        }
+    },
+    "vileplume": {
+        "id": 45,
+        "height": 12,
+        "weight": 186,
+        "typing": [
+            "grass",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 75,
+            "attack": 80,
+            "defense": 85,
+            "special-attack": 110,
+            "special-defense": 90,
+            "speed": 50
+        },
+        "abilities": {
+            "normal": [
+                "chlorophyll"
+            ],
+            "hidden": [
+                "effect-spore"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/vileplume.png",
+            "shiny": "src/data/sprites/shiny/vileplume.png"
+        }
+    },
+    "paras": {
+        "id": 46,
+        "height": 3,
+        "weight": 54,
+        "typing": [
+            "bug",
+            "grass"
+        ],
+        "base_stats": {
+            "hp": 35,
+            "attack": 70,
+            "defense": 55,
+            "special-attack": 45,
+            "special-defense": 55,
+            "speed": 25
+        },
+        "abilities": {
+            "normal": [
+                "effect-spore",
+                "dry-skin"
+            ],
+            "hidden": [
+                "damp"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/paras.png",
+            "shiny": "src/data/sprites/shiny/paras.png"
+        }
+    },
+    "parasect": {
+        "id": 47,
+        "height": 10,
+        "weight": 295,
+        "typing": [
+            "bug",
+            "grass"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "attack": 95,
+            "defense": 80,
+            "special-attack": 60,
+            "special-defense": 80,
+            "speed": 30
+        },
+        "abilities": {
+            "normal": [
+                "effect-spore",
+                "dry-skin"
+            ],
+            "hidden": [
+                "damp"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/parasect.png",
+            "shiny": "src/data/sprites/shiny/parasect.png"
+        }
+    },
+    "venonat": {
+        "id": 48,
+        "height": 10,
+        "weight": 300,
+        "typing": [
+            "bug",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "attack": 55,
+            "defense": 50,
+            "special-attack": 40,
+            "special-defense": 55,
+            "speed": 45
+        },
+        "abilities": {
+            "normal": [
+                "compound-eyes",
+                "tinted-lens"
+            ],
+            "hidden": [
+                "run-away"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/venonat.png",
+            "shiny": "src/data/sprites/shiny/venonat.png"
+        }
+    },
+    "venomoth": {
+        "id": 49,
+        "height": 15,
+        "weight": 125,
+        "typing": [
+            "bug",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 70,
+            "attack": 65,
+            "defense": 60,
+            "special-attack": 90,
+            "special-defense": 75,
+            "speed": 90
+        },
+        "abilities": {
+            "normal": [
+                "shield-dust",
+                "tinted-lens"
+            ],
+            "hidden": [
+                "wonder-skin"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/venomoth.png",
+            "shiny": "src/data/sprites/shiny/venomoth.png"
+        }
+    },
+    "diglett": {
+        "id": 50,
+        "height": 2,
+        "weight": 8,
+        "typing": [
+            "ground"
+        ],
+        "base_stats": {
+            "hp": 10,
+            "attack": 55,
+            "defense": 25,
+            "special-attack": 35,
+            "special-defense": 45,
+            "speed": 95
+        },
+        "abilities": {
+            "normal": [
+                "sand-veil",
+                "arena-trap"
+            ],
+            "hidden": [
+                "sand-force"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/diglett.png",
+            "shiny": "src/data/sprites/shiny/diglett.png"
+        }
+    },
+    "dugtrio": {
+        "id": 51,
+        "height": 7,
+        "weight": 333,
+        "typing": [
+            "ground"
+        ],
+        "base_stats": {
+            "hp": 35,
+            "attack": 100,
+            "defense": 50,
+            "special-attack": 50,
+            "special-defense": 70,
+            "speed": 120
+        },
+        "abilities": {
+            "normal": [
+                "sand-veil",
+                "arena-trap"
+            ],
+            "hidden": [
+                "sand-force"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/dugtrio.png",
+            "shiny": "src/data/sprites/shiny/dugtrio.png"
+        }
+    },
+    "meowth": {
+        "id": 52,
+        "height": 4,
+        "weight": 42,
+        "typing": [
+            "normal"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "attack": 45,
+            "defense": 35,
+            "special-attack": 40,
+            "special-defense": 40,
+            "speed": 90
+        },
+        "abilities": {
+            "normal": [
+                "pickup",
+                "technician"
+            ],
+            "hidden": [
+                "unnerve"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/meowth.png",
+            "shiny": "src/data/sprites/shiny/meowth.png"
+        }
+    },
+    "persian": {
+        "id": 53,
+        "height": 10,
+        "weight": 320,
+        "typing": [
+            "normal"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 70,
+            "defense": 60,
+            "special-attack": 65,
+            "special-defense": 65,
+            "speed": 115
+        },
+        "abilities": {
+            "normal": [
+                "limber",
+                "technician"
+            ],
+            "hidden": [
+                "unnerve"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/persian.png",
+            "shiny": "src/data/sprites/shiny/persian.png"
+        }
+    },
+    "psyduck": {
+        "id": 54,
+        "height": 8,
+        "weight": 196,
+        "typing": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 50,
+            "attack": 52,
+            "defense": 48,
+            "special-attack": 65,
+            "special-defense": 50,
+            "speed": 55
+        },
+        "abilities": {
+            "normal": [
+                "damp",
+                "cloud-nine"
+            ],
+            "hidden": [
+                "swift-swim"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/psyduck.png",
+            "shiny": "src/data/sprites/shiny/psyduck.png"
+        }
+    },
+    "golduck": {
+        "id": 55,
+        "height": 17,
+        "weight": 766,
+        "typing": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 80,
+            "attack": 82,
+            "defense": 78,
+            "special-attack": 95,
+            "special-defense": 80,
+            "speed": 85
+        },
+        "abilities": {
+            "normal": [
+                "damp",
+                "cloud-nine"
+            ],
+            "hidden": [
+                "swift-swim"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/golduck.png",
+            "shiny": "src/data/sprites/shiny/golduck.png"
+        }
+    },
+    "mankey": {
+        "id": 56,
+        "height": 5,
+        "weight": 280,
+        "typing": [
+            "fighting"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "attack": 80,
+            "defense": 35,
+            "special-attack": 35,
+            "special-defense": 45,
+            "speed": 70
+        },
+        "abilities": {
+            "normal": [
+                "vital-spirit",
+                "anger-point"
+            ],
+            "hidden": [
+                "defiant"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/mankey.png",
+            "shiny": "src/data/sprites/shiny/mankey.png"
+        }
+    },
+    "primeape": {
+        "id": 57,
+        "height": 10,
+        "weight": 320,
+        "typing": [
+            "fighting"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 105,
+            "defense": 60,
+            "special-attack": 60,
+            "special-defense": 70,
+            "speed": 95
+        },
+        "abilities": {
+            "normal": [
+                "vital-spirit",
+                "anger-point"
+            ],
+            "hidden": [
+                "defiant"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/primeape.png",
+            "shiny": "src/data/sprites/shiny/primeape.png"
+        }
+    },
+    "growlithe": {
+        "id": 58,
+        "height": 7,
+        "weight": 190,
+        "typing": [
+            "fire"
+        ],
+        "base_stats": {
+            "hp": 55,
+            "attack": 70,
+            "defense": 45,
+            "special-attack": 70,
+            "special-defense": 50,
+            "speed": 60
+        },
+        "abilities": {
+            "normal": [
+                "intimidate",
+                "flash-fire"
+            ],
+            "hidden": [
+                "justified"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/growlithe.png",
+            "shiny": "src/data/sprites/shiny/growlithe.png"
+        }
+    },
+    "arcanine": {
+        "id": 59,
+        "height": 19,
+        "weight": 1550,
+        "typing": [
+            "fire"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "attack": 110,
+            "defense": 80,
+            "special-attack": 100,
+            "special-defense": 80,
+            "speed": 95
+        },
+        "abilities": {
+            "normal": [
+                "intimidate",
+                "flash-fire"
+            ],
+            "hidden": [
+                "justified"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/arcanine.png",
+            "shiny": "src/data/sprites/shiny/arcanine.png"
+        }
+    },
+    "poliwag": {
+        "id": 60,
+        "height": 6,
+        "weight": 124,
+        "typing": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "attack": 50,
+            "defense": 40,
+            "special-attack": 40,
+            "special-defense": 40,
+            "speed": 90
+        },
+        "abilities": {
+            "normal": [
+                "water-absorb",
+                "damp"
+            ],
+            "hidden": [
+                "swift-swim"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/poliwag.png",
+            "shiny": "src/data/sprites/shiny/poliwag.png"
+        }
+    },
+    "poliwhirl": {
+        "id": 61,
+        "height": 10,
+        "weight": 200,
+        "typing": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 65,
+            "defense": 65,
+            "special-attack": 50,
+            "special-defense": 50,
+            "speed": 90
+        },
+        "abilities": {
+            "normal": [
+                "water-absorb",
+                "damp"
+            ],
+            "hidden": [
+                "swift-swim"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/poliwhirl.png",
+            "shiny": "src/data/sprites/shiny/poliwhirl.png"
+        }
+    },
+    "poliwrath": {
+        "id": 62,
+        "height": 13,
+        "weight": 540,
+        "typing": [
+            "water",
+            "fighting"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "attack": 95,
+            "defense": 95,
+            "special-attack": 70,
+            "special-defense": 90,
+            "speed": 70
+        },
+        "abilities": {
+            "normal": [
+                "water-absorb",
+                "damp"
+            ],
+            "hidden": [
+                "swift-swim"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/poliwrath.png",
+            "shiny": "src/data/sprites/shiny/poliwrath.png"
+        }
+    },
+    "abra": {
+        "id": 63,
+        "height": 9,
+        "weight": 195,
+        "typing": [
+            "psychic"
+        ],
+        "base_stats": {
+            "hp": 25,
+            "attack": 20,
+            "defense": 15,
+            "special-attack": 105,
+            "special-defense": 55,
+            "speed": 90
+        },
+        "abilities": {
+            "normal": [
+                "synchronize",
+                "inner-focus"
+            ],
+            "hidden": [
+                "magic-guard"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/abra.png",
+            "shiny": "src/data/sprites/shiny/abra.png"
+        }
+    },
+    "kadabra": {
+        "id": 64,
+        "height": 13,
+        "weight": 565,
+        "typing": [
+            "psychic"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "attack": 35,
+            "defense": 30,
+            "special-attack": 120,
+            "special-defense": 70,
+            "speed": 105
+        },
+        "abilities": {
+            "normal": [
+                "synchronize",
+                "inner-focus"
+            ],
+            "hidden": [
+                "magic-guard"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/kadabra.png",
+            "shiny": "src/data/sprites/shiny/kadabra.png"
+        }
+    },
+    "alakazam": {
+        "id": 65,
+        "height": 15,
+        "weight": 480,
+        "typing": [
+            "psychic"
+        ],
+        "base_stats": {
+            "hp": 55,
+            "attack": 50,
+            "defense": 45,
+            "special-attack": 135,
+            "special-defense": 95,
+            "speed": 120
+        },
+        "abilities": {
+            "normal": [
+                "synchronize",
+                "inner-focus"
+            ],
+            "hidden": [
+                "magic-guard"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/alakazam.png",
+            "shiny": "src/data/sprites/shiny/alakazam.png"
+        }
+    },
+    "machop": {
+        "id": 66,
+        "height": 8,
+        "weight": 195,
+        "typing": [
+            "fighting"
+        ],
+        "base_stats": {
+            "hp": 70,
+            "attack": 80,
+            "defense": 50,
+            "special-attack": 35,
+            "special-defense": 35,
+            "speed": 35
+        },
+        "abilities": {
+            "normal": [
+                "guts",
+                "no-guard"
+            ],
+            "hidden": [
+                "steadfast"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/machop.png",
+            "shiny": "src/data/sprites/shiny/machop.png"
+        }
+    },
+    "machoke": {
+        "id": 67,
+        "height": 15,
+        "weight": 705,
+        "typing": [
+            "fighting"
+        ],
+        "base_stats": {
+            "hp": 80,
+            "attack": 100,
+            "defense": 70,
+            "special-attack": 50,
+            "special-defense": 60,
+            "speed": 45
+        },
+        "abilities": {
+            "normal": [
+                "guts",
+                "no-guard"
+            ],
+            "hidden": [
+                "steadfast"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/machoke.png",
+            "shiny": "src/data/sprites/shiny/machoke.png"
+        }
+    },
+    "machamp": {
+        "id": 68,
+        "height": 16,
+        "weight": 1300,
+        "typing": [
+            "fighting"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "attack": 130,
+            "defense": 80,
+            "special-attack": 65,
+            "special-defense": 85,
+            "speed": 55
+        },
+        "abilities": {
+            "normal": [
+                "guts",
+                "no-guard"
+            ],
+            "hidden": [
+                "steadfast"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/machamp.png",
+            "shiny": "src/data/sprites/shiny/machamp.png"
+        }
+    },
+    "bellsprout": {
+        "id": 69,
+        "height": 7,
+        "weight": 40,
+        "typing": [
+            "grass",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 50,
+            "attack": 75,
+            "defense": 35,
+            "special-attack": 70,
+            "special-defense": 30,
+            "speed": 40
+        },
+        "abilities": {
+            "normal": [
+                "chlorophyll"
+            ],
+            "hidden": [
+                "gluttony"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/bellsprout.png",
+            "shiny": "src/data/sprites/shiny/bellsprout.png"
+        }
+    },
+    "weepinbell": {
+        "id": 70,
+        "height": 10,
+        "weight": 64,
+        "typing": [
+            "grass",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 90,
+            "defense": 50,
+            "special-attack": 85,
+            "special-defense": 45,
+            "speed": 55
+        },
+        "abilities": {
+            "normal": [
+                "chlorophyll"
+            ],
+            "hidden": [
+                "gluttony"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/weepinbell.png",
+            "shiny": "src/data/sprites/shiny/weepinbell.png"
+        }
+    },
+    "victreebel": {
+        "id": 71,
+        "height": 17,
+        "weight": 155,
+        "typing": [
+            "grass",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 80,
+            "attack": 105,
+            "defense": 65,
+            "special-attack": 100,
+            "special-defense": 70,
+            "speed": 70
+        },
+        "abilities": {
+            "normal": [
+                "chlorophyll"
+            ],
+            "hidden": [
+                "gluttony"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/victreebel.png",
+            "shiny": "src/data/sprites/shiny/victreebel.png"
+        }
+    },
+    "tentacool": {
+        "id": 72,
+        "height": 9,
+        "weight": 455,
+        "typing": [
+            "water",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "attack": 40,
+            "defense": 35,
+            "special-attack": 50,
+            "special-defense": 100,
+            "speed": 70
+        },
+        "abilities": {
+            "normal": [
+                "clear-body",
+                "liquid-ooze"
+            ],
+            "hidden": [
+                "rain-dish"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/tentacool.png",
+            "shiny": "src/data/sprites/shiny/tentacool.png"
+        }
+    },
+    "tentacruel": {
+        "id": 73,
+        "height": 16,
+        "weight": 550,
+        "typing": [
+            "water",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 80,
+            "attack": 70,
+            "defense": 65,
+            "special-attack": 80,
+            "special-defense": 120,
+            "speed": 100
+        },
+        "abilities": {
+            "normal": [
+                "clear-body",
+                "liquid-ooze"
+            ],
+            "hidden": [
+                "rain-dish"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/tentacruel.png",
+            "shiny": "src/data/sprites/shiny/tentacruel.png"
+        }
+    },
+    "geodude": {
+        "id": 74,
+        "height": 4,
+        "weight": 200,
+        "typing": [
+            "rock",
+            "ground"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "attack": 80,
+            "defense": 100,
+            "special-attack": 30,
+            "special-defense": 30,
+            "speed": 20
+        },
+        "abilities": {
+            "normal": [
+                "rock-head",
+                "sturdy"
+            ],
+            "hidden": [
+                "sand-veil"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/geodude.png",
+            "shiny": "src/data/sprites/shiny/geodude.png"
+        }
+    },
+    "graveler": {
+        "id": 75,
+        "height": 10,
+        "weight": 1050,
+        "typing": [
+            "rock",
+            "ground"
+        ],
+        "base_stats": {
+            "hp": 55,
+            "attack": 95,
+            "defense": 115,
+            "special-attack": 45,
+            "special-defense": 45,
+            "speed": 35
+        },
+        "abilities": {
+            "normal": [
+                "rock-head",
+                "sturdy"
+            ],
+            "hidden": [
+                "sand-veil"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/graveler.png",
+            "shiny": "src/data/sprites/shiny/graveler.png"
+        }
+    },
+    "golem": {
+        "id": 76,
+        "height": 14,
+        "weight": 3000,
+        "typing": [
+            "rock",
+            "ground"
+        ],
+        "base_stats": {
+            "hp": 80,
+            "attack": 120,
+            "defense": 130,
+            "special-attack": 55,
+            "special-defense": 65,
+            "speed": 45
+        },
+        "abilities": {
+            "normal": [
+                "rock-head",
+                "sturdy"
+            ],
+            "hidden": [
+                "sand-veil"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/golem.png",
+            "shiny": "src/data/sprites/shiny/golem.png"
+        }
+    },
+    "ponyta": {
+        "id": 77,
+        "height": 10,
+        "weight": 300,
+        "typing": [
+            "fire"
+        ],
+        "base_stats": {
+            "hp": 50,
+            "attack": 85,
+            "defense": 55,
+            "special-attack": 65,
+            "special-defense": 65,
+            "speed": 90
+        },
+        "abilities": {
+            "normal": [
+                "run-away",
+                "flash-fire"
+            ],
+            "hidden": [
+                "flame-body"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/ponyta.png",
+            "shiny": "src/data/sprites/shiny/ponyta.png"
+        }
+    },
+    "rapidash": {
+        "id": 78,
+        "height": 17,
+        "weight": 950,
+        "typing": [
+            "fire"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 100,
+            "defense": 70,
+            "special-attack": 80,
+            "special-defense": 80,
+            "speed": 105
+        },
+        "abilities": {
+            "normal": [
+                "run-away",
+                "flash-fire"
+            ],
+            "hidden": [
+                "flame-body"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/rapidash.png",
+            "shiny": "src/data/sprites/shiny/rapidash.png"
+        }
+    },
+    "slowpoke": {
+        "id": 79,
+        "height": 12,
+        "weight": 360,
+        "typing": [
+            "water",
+            "psychic"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "attack": 65,
+            "defense": 65,
+            "special-attack": 40,
+            "special-defense": 40,
+            "speed": 15
+        },
+        "abilities": {
+            "normal": [
+                "oblivious",
+                "own-tempo"
+            ],
+            "hidden": [
+                "regenerator"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/slowpoke.png",
+            "shiny": "src/data/sprites/shiny/slowpoke.png"
+        }
+    },
+    "slowbro": {
+        "id": 80,
+        "height": 16,
+        "weight": 785,
+        "typing": [
+            "water",
+            "psychic"
+        ],
+        "base_stats": {
+            "hp": 95,
+            "attack": 75,
+            "defense": 110,
+            "special-attack": 100,
+            "special-defense": 80,
+            "speed": 30
+        },
+        "abilities": {
+            "normal": [
+                "oblivious",
+                "own-tempo"
+            ],
+            "hidden": [
+                "regenerator"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/slowbro.png",
+            "shiny": "src/data/sprites/shiny/slowbro.png"
+        }
+    },
+    "magnemite": {
+        "id": 81,
+        "height": 3,
+        "weight": 60,
+        "typing": [
+            "electric",
+            "steel"
+        ],
+        "base_stats": {
+            "hp": 25,
+            "attack": 35,
+            "defense": 70,
+            "special-attack": 95,
+            "special-defense": 55,
+            "speed": 45
+        },
+        "abilities": {
+            "normal": [
+                "magnet-pull",
+                "sturdy"
+            ],
+            "hidden": [
+                "analytic"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/magnemite.png",
+            "shiny": "src/data/sprites/shiny/magnemite.png"
+        }
+    },
+    "magneton": {
+        "id": 82,
+        "height": 10,
+        "weight": 600,
+        "typing": [
+            "electric",
+            "steel"
+        ],
+        "base_stats": {
+            "hp": 50,
+            "attack": 60,
+            "defense": 95,
+            "special-attack": 120,
+            "special-defense": 70,
+            "speed": 70
+        },
+        "abilities": {
+            "normal": [
+                "magnet-pull",
+                "sturdy"
+            ],
+            "hidden": [
+                "analytic"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/magneton.png",
+            "shiny": "src/data/sprites/shiny/magneton.png"
+        }
+    },
+    "farfetchd": {
+        "id": 83,
+        "height": 8,
+        "weight": 150,
+        "typing": [
+            "normal",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 52,
+            "attack": 90,
+            "defense": 55,
+            "special-attack": 58,
+            "special-defense": 62,
+            "speed": 60
+        },
+        "abilities": {
+            "normal": [
+                "keen-eye",
+                "inner-focus"
+            ],
+            "hidden": [
+                "defiant"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/farfetchd.png",
+            "shiny": "src/data/sprites/shiny/farfetchd.png"
+        }
+    },
+    "doduo": {
+        "id": 84,
+        "height": 14,
+        "weight": 392,
+        "typing": [
+            "normal",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 35,
+            "attack": 85,
+            "defense": 45,
+            "special-attack": 35,
+            "special-defense": 35,
+            "speed": 75
+        },
+        "abilities": {
+            "normal": [
+                "run-away",
+                "early-bird"
+            ],
+            "hidden": [
+                "tangled-feet"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/doduo.png",
+            "shiny": "src/data/sprites/shiny/doduo.png"
+        }
+    },
+    "dodrio": {
+        "id": 85,
+        "height": 18,
+        "weight": 852,
+        "typing": [
+            "normal",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "attack": 110,
+            "defense": 70,
+            "special-attack": 60,
+            "special-defense": 60,
+            "speed": 110
+        },
+        "abilities": {
+            "normal": [
+                "run-away",
+                "early-bird"
+            ],
+            "hidden": [
+                "tangled-feet"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/dodrio.png",
+            "shiny": "src/data/sprites/shiny/dodrio.png"
+        }
+    },
+    "seel": {
+        "id": 86,
+        "height": 11,
+        "weight": 900,
+        "typing": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 45,
+            "defense": 55,
+            "special-attack": 45,
+            "special-defense": 70,
+            "speed": 45
+        },
+        "abilities": {
+            "normal": [
+                "thick-fat",
+                "hydration"
+            ],
+            "hidden": [
+                "ice-body"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/seel.png",
+            "shiny": "src/data/sprites/shiny/seel.png"
+        }
+    },
+    "dewgong": {
+        "id": 87,
+        "height": 17,
+        "weight": 1200,
+        "typing": [
+            "water",
+            "ice"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "attack": 70,
+            "defense": 80,
+            "special-attack": 70,
+            "special-defense": 95,
+            "speed": 70
+        },
+        "abilities": {
+            "normal": [
+                "thick-fat",
+                "hydration"
+            ],
+            "hidden": [
+                "ice-body"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/dewgong.png",
+            "shiny": "src/data/sprites/shiny/dewgong.png"
+        }
+    },
+    "grimer": {
+        "id": 88,
+        "height": 9,
+        "weight": 300,
+        "typing": [
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 80,
+            "attack": 80,
+            "defense": 50,
+            "special-attack": 40,
+            "special-defense": 50,
+            "speed": 25
+        },
+        "abilities": {
+            "normal": [
+                "stench",
+                "sticky-hold"
+            ],
+            "hidden": [
+                "poison-touch"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/grimer.png",
+            "shiny": "src/data/sprites/shiny/grimer.png"
+        }
+    },
+    "muk": {
+        "id": 89,
+        "height": 12,
+        "weight": 300,
+        "typing": [
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 105,
+            "attack": 105,
+            "defense": 75,
+            "special-attack": 65,
+            "special-defense": 100,
+            "speed": 50
+        },
+        "abilities": {
+            "normal": [
+                "stench",
+                "sticky-hold"
+            ],
+            "hidden": [
+                "poison-touch"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/muk.png",
+            "shiny": "src/data/sprites/shiny/muk.png"
+        }
+    },
+    "shellder": {
+        "id": 90,
+        "height": 3,
+        "weight": 40,
+        "typing": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 30,
+            "attack": 65,
+            "defense": 100,
+            "special-attack": 45,
+            "special-defense": 25,
+            "speed": 40
+        },
+        "abilities": {
+            "normal": [
+                "shell-armor",
+                "skill-link"
+            ],
+            "hidden": [
+                "overcoat"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/shellder.png",
+            "shiny": "src/data/sprites/shiny/shellder.png"
+        }
+    },
+    "cloyster": {
+        "id": 91,
+        "height": 15,
+        "weight": 1325,
+        "typing": [
+            "water",
+            "ice"
+        ],
+        "base_stats": {
+            "hp": 50,
+            "attack": 95,
+            "defense": 180,
+            "special-attack": 85,
+            "special-defense": 45,
+            "speed": 70
+        },
+        "abilities": {
+            "normal": [
+                "shell-armor",
+                "skill-link"
+            ],
+            "hidden": [
+                "overcoat"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/cloyster.png",
+            "shiny": "src/data/sprites/shiny/cloyster.png"
+        }
+    },
+    "gastly": {
+        "id": 92,
+        "height": 13,
+        "weight": 1,
+        "typing": [
+            "ghost",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 30,
+            "attack": 35,
+            "defense": 30,
+            "special-attack": 100,
+            "special-defense": 35,
+            "speed": 80
+        },
+        "abilities": {
+            "normal": [
+                "levitate"
+            ],
+            "hidden": []
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/gastly.png",
+            "shiny": "src/data/sprites/shiny/gastly.png"
+        }
+    },
+    "haunter": {
+        "id": 93,
+        "height": 16,
+        "weight": 1,
+        "typing": [
+            "ghost",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 45,
+            "attack": 50,
+            "defense": 45,
+            "special-attack": 115,
+            "special-defense": 55,
+            "speed": 95
+        },
+        "abilities": {
+            "normal": [
+                "levitate"
+            ],
+            "hidden": []
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/haunter.png",
+            "shiny": "src/data/sprites/shiny/haunter.png"
+        }
+    },
+    "gengar": {
+        "id": 94,
+        "height": 15,
+        "weight": 405,
+        "typing": [
+            "ghost",
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "attack": 65,
+            "defense": 60,
+            "special-attack": 130,
+            "special-defense": 75,
+            "speed": 110
+        },
+        "abilities": {
+            "normal": [
+                "cursed-body"
+            ],
+            "hidden": []
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/gengar.png",
+            "shiny": "src/data/sprites/shiny/gengar.png"
+        }
+    },
+    "onix": {
+        "id": 95,
+        "height": 88,
+        "weight": 2100,
+        "typing": [
+            "rock",
+            "ground"
+        ],
+        "base_stats": {
+            "hp": 35,
+            "attack": 45,
+            "defense": 160,
+            "special-attack": 30,
+            "special-defense": 45,
+            "speed": 70
+        },
+        "abilities": {
+            "normal": [
+                "rock-head",
+                "sturdy"
+            ],
+            "hidden": [
+                "weak-armor"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/onix.png",
+            "shiny": "src/data/sprites/shiny/onix.png"
+        }
+    },
+    "drowzee": {
+        "id": 96,
+        "height": 10,
+        "weight": 324,
+        "typing": [
+            "psychic"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "attack": 48,
+            "defense": 45,
+            "special-attack": 43,
+            "special-defense": 90,
+            "speed": 42
+        },
+        "abilities": {
+            "normal": [
+                "insomnia",
+                "forewarn"
+            ],
+            "hidden": [
+                "inner-focus"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/drowzee.png",
+            "shiny": "src/data/sprites/shiny/drowzee.png"
+        }
+    },
+    "hypno": {
+        "id": 97,
+        "height": 16,
+        "weight": 756,
+        "typing": [
+            "psychic"
+        ],
+        "base_stats": {
+            "hp": 85,
+            "attack": 73,
+            "defense": 70,
+            "special-attack": 73,
+            "special-defense": 115,
+            "speed": 67
+        },
+        "abilities": {
+            "normal": [
+                "insomnia",
+                "forewarn"
+            ],
+            "hidden": [
+                "inner-focus"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/hypno.png",
+            "shiny": "src/data/sprites/shiny/hypno.png"
+        }
+    },
+    "krabby": {
+        "id": 98,
+        "height": 4,
+        "weight": 65,
+        "typing": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 30,
+            "attack": 105,
+            "defense": 90,
+            "special-attack": 25,
+            "special-defense": 25,
+            "speed": 50
+        },
+        "abilities": {
+            "normal": [
+                "hyper-cutter",
+                "shell-armor"
+            ],
+            "hidden": [
+                "sheer-force"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/krabby.png",
+            "shiny": "src/data/sprites/shiny/krabby.png"
+        }
+    },
+    "kingler": {
+        "id": 99,
+        "height": 13,
+        "weight": 600,
+        "typing": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 55,
+            "attack": 130,
+            "defense": 115,
+            "special-attack": 50,
+            "special-defense": 50,
+            "speed": 75
+        },
+        "abilities": {
+            "normal": [
+                "hyper-cutter",
+                "shell-armor"
+            ],
+            "hidden": [
+                "sheer-force"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/kingler.png",
+            "shiny": "src/data/sprites/shiny/kingler.png"
+        }
+    },
+    "voltorb": {
+        "id": 100,
+        "height": 5,
+        "weight": 104,
+        "typing": [
+            "electric"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "attack": 30,
+            "defense": 50,
+            "special-attack": 55,
+            "special-defense": 55,
+            "speed": 100
+        },
+        "abilities": {
+            "normal": [
+                "soundproof",
+                "static"
+            ],
+            "hidden": [
+                "aftermath"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/voltorb.png",
+            "shiny": "src/data/sprites/shiny/voltorb.png"
+        }
+    },
+    "electrode": {
+        "id": 101,
+        "height": 12,
+        "weight": 666,
+        "typing": [
+            "electric"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "attack": 50,
+            "defense": 70,
+            "special-attack": 80,
+            "special-defense": 80,
+            "speed": 150
+        },
+        "abilities": {
+            "normal": [
+                "soundproof",
+                "static"
+            ],
+            "hidden": [
+                "aftermath"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/electrode.png",
+            "shiny": "src/data/sprites/shiny/electrode.png"
+        }
+    },
+    "exeggcute": {
+        "id": 102,
+        "height": 4,
+        "weight": 25,
+        "typing": [
+            "grass",
+            "psychic"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "attack": 40,
+            "defense": 80,
+            "special-attack": 60,
+            "special-defense": 45,
+            "speed": 40
+        },
+        "abilities": {
+            "normal": [
+                "chlorophyll"
+            ],
+            "hidden": [
+                "harvest"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/exeggcute.png",
+            "shiny": "src/data/sprites/shiny/exeggcute.png"
+        }
+    },
+    "exeggutor": {
+        "id": 103,
+        "height": 20,
+        "weight": 1200,
+        "typing": [
+            "grass",
+            "psychic"
+        ],
+        "base_stats": {
+            "hp": 95,
+            "attack": 95,
+            "defense": 85,
+            "special-attack": 125,
+            "special-defense": 75,
+            "speed": 55
+        },
+        "abilities": {
+            "normal": [
+                "chlorophyll"
+            ],
+            "hidden": [
+                "harvest"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/exeggutor.png",
+            "shiny": "src/data/sprites/shiny/exeggutor.png"
+        }
+    },
+    "cubone": {
+        "id": 104,
+        "height": 4,
+        "weight": 65,
+        "typing": [
+            "ground"
+        ],
+        "base_stats": {
+            "hp": 50,
+            "attack": 50,
+            "defense": 95,
+            "special-attack": 40,
+            "special-defense": 50,
+            "speed": 35
+        },
+        "abilities": {
+            "normal": [
+                "rock-head",
+                "lightning-rod"
+            ],
+            "hidden": [
+                "battle-armor"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/cubone.png",
+            "shiny": "src/data/sprites/shiny/cubone.png"
+        }
+    },
+    "marowak": {
+        "id": 105,
+        "height": 10,
+        "weight": 450,
+        "typing": [
+            "ground"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "attack": 80,
+            "defense": 110,
+            "special-attack": 50,
+            "special-defense": 80,
+            "speed": 45
+        },
+        "abilities": {
+            "normal": [
+                "rock-head",
+                "lightning-rod"
+            ],
+            "hidden": [
+                "battle-armor"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/marowak.png",
+            "shiny": "src/data/sprites/shiny/marowak.png"
+        }
+    },
+    "hitmonlee": {
+        "id": 106,
+        "height": 15,
+        "weight": 498,
+        "typing": [
+            "fighting"
+        ],
+        "base_stats": {
+            "hp": 50,
+            "attack": 120,
+            "defense": 53,
+            "special-attack": 35,
+            "special-defense": 110,
+            "speed": 87
+        },
+        "abilities": {
+            "normal": [
+                "limber",
+                "reckless"
+            ],
+            "hidden": [
+                "unburden"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/hitmonlee.png",
+            "shiny": "src/data/sprites/shiny/hitmonlee.png"
+        }
+    },
+    "hitmonchan": {
+        "id": 107,
+        "height": 14,
+        "weight": 502,
+        "typing": [
+            "fighting"
+        ],
+        "base_stats": {
+            "hp": 50,
+            "attack": 105,
+            "defense": 79,
+            "special-attack": 35,
+            "special-defense": 110,
+            "speed": 76
+        },
+        "abilities": {
+            "normal": [
+                "keen-eye",
+                "iron-fist"
+            ],
+            "hidden": [
+                "inner-focus"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/hitmonchan.png",
+            "shiny": "src/data/sprites/shiny/hitmonchan.png"
+        }
+    },
+    "lickitung": {
+        "id": 108,
+        "height": 12,
+        "weight": 655,
+        "typing": [
+            "normal"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "attack": 55,
+            "defense": 75,
+            "special-attack": 60,
+            "special-defense": 75,
+            "speed": 30
+        },
+        "abilities": {
+            "normal": [
+                "own-tempo",
+                "oblivious"
+            ],
+            "hidden": [
+                "cloud-nine"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/lickitung.png",
+            "shiny": "src/data/sprites/shiny/lickitung.png"
+        }
+    },
+    "koffing": {
+        "id": 109,
+        "height": 6,
+        "weight": 10,
+        "typing": [
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "attack": 65,
+            "defense": 95,
+            "special-attack": 60,
+            "special-defense": 45,
+            "speed": 35
+        },
+        "abilities": {
+            "normal": [
+                "levitate",
+                "neutralizing-gas"
+            ],
+            "hidden": [
+                "stench"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/koffing.png",
+            "shiny": "src/data/sprites/shiny/koffing.png"
+        }
+    },
+    "weezing": {
+        "id": 110,
+        "height": 12,
+        "weight": 95,
+        "typing": [
+            "poison"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 90,
+            "defense": 120,
+            "special-attack": 85,
+            "special-defense": 70,
+            "speed": 60
+        },
+        "abilities": {
+            "normal": [
+                "levitate",
+                "neutralizing-gas"
+            ],
+            "hidden": [
+                "stench"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/weezing.png",
+            "shiny": "src/data/sprites/shiny/weezing.png"
+        }
+    },
+    "rhyhorn": {
+        "id": 111,
+        "height": 10,
+        "weight": 1150,
+        "typing": [
+            "ground",
+            "rock"
+        ],
+        "base_stats": {
+            "hp": 80,
+            "attack": 85,
+            "defense": 95,
+            "special-attack": 30,
+            "special-defense": 30,
+            "speed": 25
+        },
+        "abilities": {
+            "normal": [
+                "lightning-rod",
+                "rock-head"
+            ],
+            "hidden": [
+                "reckless"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/rhyhorn.png",
+            "shiny": "src/data/sprites/shiny/rhyhorn.png"
+        }
+    },
+    "rhydon": {
+        "id": 112,
+        "height": 19,
+        "weight": 1200,
+        "typing": [
+            "ground",
+            "rock"
+        ],
+        "base_stats": {
+            "hp": 105,
+            "attack": 130,
+            "defense": 120,
+            "special-attack": 45,
+            "special-defense": 45,
+            "speed": 40
+        },
+        "abilities": {
+            "normal": [
+                "lightning-rod",
+                "rock-head"
+            ],
+            "hidden": [
+                "reckless"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/rhydon.png",
+            "shiny": "src/data/sprites/shiny/rhydon.png"
+        }
+    },
+    "chansey": {
+        "id": 113,
+        "height": 11,
+        "weight": 346,
+        "typing": [
+            "normal"
+        ],
+        "base_stats": {
+            "hp": 250,
+            "attack": 5,
+            "defense": 5,
+            "special-attack": 35,
+            "special-defense": 105,
+            "speed": 50
+        },
+        "abilities": {
+            "normal": [
+                "natural-cure",
+                "serene-grace"
+            ],
+            "hidden": [
+                "healer"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/chansey.png",
+            "shiny": "src/data/sprites/shiny/chansey.png"
+        }
+    },
+    "tangela": {
+        "id": 114,
+        "height": 10,
+        "weight": 350,
+        "typing": [
+            "grass"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 55,
+            "defense": 115,
+            "special-attack": 100,
+            "special-defense": 40,
+            "speed": 60
+        },
+        "abilities": {
+            "normal": [
+                "chlorophyll",
+                "leaf-guard"
+            ],
+            "hidden": [
+                "regenerator"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/tangela.png",
+            "shiny": "src/data/sprites/shiny/tangela.png"
+        }
+    },
+    "kangaskhan": {
+        "id": 115,
+        "height": 22,
+        "weight": 800,
+        "typing": [
+            "normal"
+        ],
+        "base_stats": {
+            "hp": 105,
+            "attack": 95,
+            "defense": 80,
+            "special-attack": 40,
+            "special-defense": 80,
+            "speed": 90
+        },
+        "abilities": {
+            "normal": [
+                "early-bird",
+                "scrappy"
+            ],
+            "hidden": [
+                "inner-focus"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/kangaskhan.png",
+            "shiny": "src/data/sprites/shiny/kangaskhan.png"
+        }
+    },
+    "horsea": {
+        "id": 116,
+        "height": 4,
+        "weight": 80,
+        "typing": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 30,
+            "attack": 40,
+            "defense": 70,
+            "special-attack": 70,
+            "special-defense": 25,
+            "speed": 60
+        },
+        "abilities": {
+            "normal": [
+                "swift-swim",
+                "sniper"
+            ],
+            "hidden": [
+                "damp"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/horsea.png",
+            "shiny": "src/data/sprites/shiny/horsea.png"
+        }
+    },
+    "seadra": {
+        "id": 117,
+        "height": 12,
+        "weight": 250,
+        "typing": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 55,
+            "attack": 65,
+            "defense": 95,
+            "special-attack": 95,
+            "special-defense": 45,
+            "speed": 85
+        },
+        "abilities": {
+            "normal": [
+                "poison-point",
+                "sniper"
+            ],
+            "hidden": [
+                "damp"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/seadra.png",
+            "shiny": "src/data/sprites/shiny/seadra.png"
+        }
+    },
+    "goldeen": {
+        "id": 118,
+        "height": 6,
+        "weight": 150,
+        "typing": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 45,
+            "attack": 67,
+            "defense": 60,
+            "special-attack": 35,
+            "special-defense": 50,
+            "speed": 63
+        },
+        "abilities": {
+            "normal": [
+                "swift-swim",
+                "water-veil"
+            ],
+            "hidden": [
+                "lightning-rod"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/goldeen.png",
+            "shiny": "src/data/sprites/shiny/goldeen.png"
+        }
+    },
+    "seaking": {
+        "id": 119,
+        "height": 13,
+        "weight": 390,
+        "typing": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 80,
+            "attack": 92,
+            "defense": 65,
+            "special-attack": 65,
+            "special-defense": 80,
+            "speed": 68
+        },
+        "abilities": {
+            "normal": [
+                "swift-swim",
+                "water-veil"
+            ],
+            "hidden": [
+                "lightning-rod"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/seaking.png",
+            "shiny": "src/data/sprites/shiny/seaking.png"
+        }
+    },
+    "staryu": {
+        "id": 120,
+        "height": 8,
+        "weight": 345,
+        "typing": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 30,
+            "attack": 45,
+            "defense": 55,
+            "special-attack": 70,
+            "special-defense": 55,
+            "speed": 85
+        },
+        "abilities": {
+            "normal": [
+                "illuminate",
+                "natural-cure"
+            ],
+            "hidden": [
+                "analytic"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/staryu.png",
+            "shiny": "src/data/sprites/shiny/staryu.png"
+        }
+    },
+    "starmie": {
+        "id": 121,
+        "height": 11,
+        "weight": 800,
+        "typing": [
+            "water",
+            "psychic"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "attack": 75,
+            "defense": 85,
+            "special-attack": 100,
+            "special-defense": 85,
+            "speed": 115
+        },
+        "abilities": {
+            "normal": [
+                "illuminate",
+                "natural-cure"
+            ],
+            "hidden": [
+                "analytic"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/starmie.png",
+            "shiny": "src/data/sprites/shiny/starmie.png"
+        }
+    },
+    "mr-mime": {
+        "id": 122,
+        "height": 13,
+        "weight": 545,
+        "typing": [
+            "psychic",
+            "fairy"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "attack": 45,
+            "defense": 65,
+            "special-attack": 100,
+            "special-defense": 120,
+            "speed": 90
+        },
+        "abilities": {
+            "normal": [
+                "soundproof",
+                "filter"
+            ],
+            "hidden": [
+                "technician"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/mr-mime.png",
+            "shiny": "src/data/sprites/shiny/mr-mime.png"
+        }
+    },
+    "scyther": {
+        "id": 123,
+        "height": 15,
+        "weight": 560,
+        "typing": [
+            "bug",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 70,
+            "attack": 110,
+            "defense": 80,
+            "special-attack": 55,
+            "special-defense": 80,
+            "speed": 105
+        },
+        "abilities": {
+            "normal": [
+                "swarm",
+                "technician"
+            ],
+            "hidden": [
+                "steadfast"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/scyther.png",
+            "shiny": "src/data/sprites/shiny/scyther.png"
+        }
+    },
+    "jynx": {
+        "id": 124,
+        "height": 14,
+        "weight": 406,
+        "typing": [
+            "ice",
+            "psychic"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 50,
+            "defense": 35,
+            "special-attack": 115,
+            "special-defense": 95,
+            "speed": 95
+        },
+        "abilities": {
+            "normal": [
+                "oblivious",
+                "forewarn"
+            ],
+            "hidden": [
+                "dry-skin"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/jynx.png",
+            "shiny": "src/data/sprites/shiny/jynx.png"
+        }
+    },
+    "electabuzz": {
+        "id": 125,
+        "height": 11,
+        "weight": 300,
+        "typing": [
+            "electric"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 83,
+            "defense": 57,
+            "special-attack": 95,
+            "special-defense": 85,
+            "speed": 105
+        },
+        "abilities": {
+            "normal": [
+                "static"
+            ],
+            "hidden": [
+                "vital-spirit"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/electabuzz.png",
+            "shiny": "src/data/sprites/shiny/electabuzz.png"
+        }
+    },
+    "magmar": {
+        "id": 126,
+        "height": 13,
+        "weight": 445,
+        "typing": [
+            "fire"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 95,
+            "defense": 57,
+            "special-attack": 100,
+            "special-defense": 85,
+            "speed": 93
+        },
+        "abilities": {
+            "normal": [
+                "flame-body"
+            ],
+            "hidden": [
+                "vital-spirit"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/magmar.png",
+            "shiny": "src/data/sprites/shiny/magmar.png"
+        }
+    },
+    "pinsir": {
+        "id": 127,
+        "height": 15,
+        "weight": 550,
+        "typing": [
+            "bug"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 125,
+            "defense": 100,
+            "special-attack": 55,
+            "special-defense": 70,
+            "speed": 85
+        },
+        "abilities": {
+            "normal": [
+                "hyper-cutter",
+                "mold-breaker"
+            ],
+            "hidden": [
+                "moxie"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/pinsir.png",
+            "shiny": "src/data/sprites/shiny/pinsir.png"
+        }
+    },
+    "tauros": {
+        "id": 128,
+        "height": 14,
+        "weight": 884,
+        "typing": [
+            "normal"
+        ],
+        "base_stats": {
+            "hp": 75,
+            "attack": 100,
+            "defense": 95,
+            "special-attack": 40,
+            "special-defense": 70,
+            "speed": 110
+        },
+        "abilities": {
+            "normal": [
+                "intimidate",
+                "anger-point"
+            ],
+            "hidden": [
+                "sheer-force"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/tauros.png",
+            "shiny": "src/data/sprites/shiny/tauros.png"
+        }
+    },
+    "magikarp": {
+        "id": 129,
+        "height": 9,
+        "weight": 100,
+        "typing": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 20,
+            "attack": 10,
+            "defense": 55,
+            "special-attack": 15,
+            "special-defense": 20,
+            "speed": 80
+        },
+        "abilities": {
+            "normal": [
+                "swift-swim"
+            ],
+            "hidden": [
+                "rattled"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/magikarp.png",
+            "shiny": "src/data/sprites/shiny/magikarp.png"
+        }
+    },
+    "gyarados": {
+        "id": 130,
+        "height": 65,
+        "weight": 2350,
+        "typing": [
+            "water",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 95,
+            "attack": 125,
+            "defense": 79,
+            "special-attack": 60,
+            "special-defense": 100,
+            "speed": 81
+        },
+        "abilities": {
+            "normal": [
+                "intimidate"
+            ],
+            "hidden": [
+                "moxie"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/gyarados.png",
+            "shiny": "src/data/sprites/shiny/gyarados.png"
+        }
+    },
+    "lapras": {
+        "id": 131,
+        "height": 25,
+        "weight": 2200,
+        "typing": [
+            "water",
+            "ice"
+        ],
+        "base_stats": {
+            "hp": 130,
+            "attack": 85,
+            "defense": 80,
+            "special-attack": 85,
+            "special-defense": 95,
+            "speed": 60
+        },
+        "abilities": {
+            "normal": [
+                "water-absorb",
+                "shell-armor"
+            ],
+            "hidden": [
+                "hydration"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/lapras.png",
+            "shiny": "src/data/sprites/shiny/lapras.png"
+        }
+    },
+    "ditto": {
+        "id": 132,
+        "height": 3,
+        "weight": 40,
+        "typing": [
+            "normal"
+        ],
+        "base_stats": {
+            "hp": 48,
+            "attack": 48,
+            "defense": 48,
+            "special-attack": 48,
+            "special-defense": 48,
+            "speed": 48
+        },
+        "abilities": {
+            "normal": [
+                "limber"
+            ],
+            "hidden": [
+                "imposter"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/ditto.png",
+            "shiny": "src/data/sprites/shiny/ditto.png"
+        }
+    },
+    "eevee": {
+        "id": 133,
+        "height": 3,
+        "weight": 65,
+        "typing": [
+            "normal"
+        ],
+        "base_stats": {
+            "hp": 55,
+            "attack": 55,
+            "defense": 50,
+            "special-attack": 45,
+            "special-defense": 65,
+            "speed": 55
+        },
+        "abilities": {
+            "normal": [
+                "run-away",
+                "adaptability"
+            ],
+            "hidden": [
+                "anticipation"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/eevee.png",
+            "shiny": "src/data/sprites/shiny/eevee.png"
+        }
+    },
+    "vaporeon": {
+        "id": 134,
+        "height": 10,
+        "weight": 290,
+        "typing": [
+            "water"
+        ],
+        "base_stats": {
+            "hp": 130,
+            "attack": 65,
+            "defense": 60,
+            "special-attack": 110,
+            "special-defense": 95,
+            "speed": 65
+        },
+        "abilities": {
+            "normal": [
+                "water-absorb"
+            ],
+            "hidden": [
+                "hydration"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/vaporeon.png",
+            "shiny": "src/data/sprites/shiny/vaporeon.png"
+        }
+    },
+    "jolteon": {
+        "id": 135,
+        "height": 8,
+        "weight": 245,
+        "typing": [
+            "electric"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 65,
+            "defense": 60,
+            "special-attack": 110,
+            "special-defense": 95,
+            "speed": 130
+        },
+        "abilities": {
+            "normal": [
+                "volt-absorb"
+            ],
+            "hidden": [
+                "quick-feet"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/jolteon.png",
+            "shiny": "src/data/sprites/shiny/jolteon.png"
+        }
+    },
+    "flareon": {
+        "id": 136,
+        "height": 9,
+        "weight": 250,
+        "typing": [
+            "fire"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 130,
+            "defense": 60,
+            "special-attack": 95,
+            "special-defense": 110,
+            "speed": 65
+        },
+        "abilities": {
+            "normal": [
+                "flash-fire"
+            ],
+            "hidden": [
+                "guts"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/flareon.png",
+            "shiny": "src/data/sprites/shiny/flareon.png"
+        }
+    },
+    "porygon": {
+        "id": 137,
+        "height": 8,
+        "weight": 365,
+        "typing": [
+            "normal"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "attack": 60,
+            "defense": 70,
+            "special-attack": 85,
+            "special-defense": 75,
+            "speed": 40
+        },
+        "abilities": {
+            "normal": [
+                "trace",
+                "download"
+            ],
+            "hidden": [
+                "analytic"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/porygon.png",
+            "shiny": "src/data/sprites/shiny/porygon.png"
+        }
+    },
+    "omanyte": {
+        "id": 138,
+        "height": 4,
+        "weight": 75,
+        "typing": [
+            "rock",
+            "water"
+        ],
+        "base_stats": {
+            "hp": 35,
+            "attack": 40,
+            "defense": 100,
+            "special-attack": 90,
+            "special-defense": 55,
+            "speed": 35
+        },
+        "abilities": {
+            "normal": [
+                "swift-swim",
+                "shell-armor"
+            ],
+            "hidden": [
+                "weak-armor"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/omanyte.png",
+            "shiny": "src/data/sprites/shiny/omanyte.png"
+        }
+    },
+    "omastar": {
+        "id": 139,
+        "height": 10,
+        "weight": 350,
+        "typing": [
+            "rock",
+            "water"
+        ],
+        "base_stats": {
+            "hp": 70,
+            "attack": 60,
+            "defense": 125,
+            "special-attack": 115,
+            "special-defense": 70,
+            "speed": 55
+        },
+        "abilities": {
+            "normal": [
+                "swift-swim",
+                "shell-armor"
+            ],
+            "hidden": [
+                "weak-armor"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/omastar.png",
+            "shiny": "src/data/sprites/shiny/omastar.png"
+        }
+    },
+    "kabuto": {
+        "id": 140,
+        "height": 5,
+        "weight": 115,
+        "typing": [
+            "rock",
+            "water"
+        ],
+        "base_stats": {
+            "hp": 30,
+            "attack": 80,
+            "defense": 90,
+            "special-attack": 55,
+            "special-defense": 45,
+            "speed": 55
+        },
+        "abilities": {
+            "normal": [
+                "swift-swim",
+                "battle-armor"
+            ],
+            "hidden": [
+                "weak-armor"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/kabuto.png",
+            "shiny": "src/data/sprites/shiny/kabuto.png"
+        }
+    },
+    "kabutops": {
+        "id": 141,
+        "height": 13,
+        "weight": 405,
+        "typing": [
+            "rock",
+            "water"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "attack": 115,
+            "defense": 105,
+            "special-attack": 65,
+            "special-defense": 70,
+            "speed": 80
+        },
+        "abilities": {
+            "normal": [
+                "swift-swim",
+                "battle-armor"
+            ],
+            "hidden": [
+                "weak-armor"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/kabutops.png",
+            "shiny": "src/data/sprites/shiny/kabutops.png"
+        }
+    },
+    "aerodactyl": {
+        "id": 142,
+        "height": 18,
+        "weight": 590,
+        "typing": [
+            "rock",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 80,
+            "attack": 105,
+            "defense": 65,
+            "special-attack": 60,
+            "special-defense": 75,
+            "speed": 130
+        },
+        "abilities": {
+            "normal": [
+                "rock-head",
+                "pressure"
+            ],
+            "hidden": [
+                "unnerve"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/aerodactyl.png",
+            "shiny": "src/data/sprites/shiny/aerodactyl.png"
+        }
+    },
+    "snorlax": {
+        "id": 143,
+        "height": 21,
+        "weight": 4600,
+        "typing": [
+            "normal"
+        ],
+        "base_stats": {
+            "hp": 160,
+            "attack": 110,
+            "defense": 65,
+            "special-attack": 65,
+            "special-defense": 110,
+            "speed": 30
+        },
+        "abilities": {
+            "normal": [
+                "immunity",
+                "thick-fat"
+            ],
+            "hidden": [
+                "gluttony"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/snorlax.png",
+            "shiny": "src/data/sprites/shiny/snorlax.png"
+        }
+    },
+    "articuno": {
+        "id": 144,
+        "height": 17,
+        "weight": 554,
+        "typing": [
+            "ice",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "attack": 85,
+            "defense": 100,
+            "special-attack": 95,
+            "special-defense": 125,
+            "speed": 85
+        },
+        "abilities": {
+            "normal": [
+                "pressure"
+            ],
+            "hidden": [
+                "snow-cloak"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/articuno.png",
+            "shiny": "src/data/sprites/shiny/articuno.png"
+        }
+    },
+    "zapdos": {
+        "id": 145,
+        "height": 16,
+        "weight": 526,
+        "typing": [
+            "electric",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "attack": 90,
+            "defense": 85,
+            "special-attack": 125,
+            "special-defense": 90,
+            "speed": 100
+        },
+        "abilities": {
+            "normal": [
+                "pressure"
+            ],
+            "hidden": [
+                "static"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/zapdos.png",
+            "shiny": "src/data/sprites/shiny/zapdos.png"
+        }
+    },
+    "moltres": {
+        "id": 146,
+        "height": 20,
+        "weight": 600,
+        "typing": [
+            "fire",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "attack": 100,
+            "defense": 90,
+            "special-attack": 125,
+            "special-defense": 85,
+            "speed": 90
+        },
+        "abilities": {
+            "normal": [
+                "pressure"
+            ],
+            "hidden": [
+                "flame-body"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/moltres.png",
+            "shiny": "src/data/sprites/shiny/moltres.png"
+        }
+    },
+    "dratini": {
+        "id": 147,
+        "height": 18,
+        "weight": 33,
+        "typing": [
+            "dragon"
+        ],
+        "base_stats": {
+            "hp": 41,
+            "attack": 64,
+            "defense": 45,
+            "special-attack": 50,
+            "special-defense": 50,
+            "speed": 50
+        },
+        "abilities": {
+            "normal": [
+                "shed-skin"
+            ],
+            "hidden": [
+                "marvel-scale"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/dratini.png",
+            "shiny": "src/data/sprites/shiny/dratini.png"
+        }
+    },
+    "dragonair": {
+        "id": 148,
+        "height": 40,
+        "weight": 165,
+        "typing": [
+            "dragon"
+        ],
+        "base_stats": {
+            "hp": 61,
+            "attack": 84,
+            "defense": 65,
+            "special-attack": 70,
+            "special-defense": 70,
+            "speed": 70
+        },
+        "abilities": {
+            "normal": [
+                "shed-skin"
+            ],
+            "hidden": [
+                "marvel-scale"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/dragonair.png",
+            "shiny": "src/data/sprites/shiny/dragonair.png"
+        }
+    },
+    "dragonite": {
+        "id": 149,
+        "height": 22,
+        "weight": 2100,
+        "typing": [
+            "dragon",
+            "flying"
+        ],
+        "base_stats": {
+            "hp": 91,
+            "attack": 134,
+            "defense": 95,
+            "special-attack": 100,
+            "special-defense": 100,
+            "speed": 80
+        },
+        "abilities": {
+            "normal": [
+                "inner-focus"
+            ],
+            "hidden": [
+                "multiscale"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/dragonite.png",
+            "shiny": "src/data/sprites/shiny/dragonite.png"
+        }
+    },
+    "mewtwo": {
+        "id": 150,
+        "height": 20,
+        "weight": 1220,
+        "typing": [
+            "psychic"
+        ],
+        "base_stats": {
+            "hp": 106,
+            "attack": 110,
+            "defense": 90,
+            "special-attack": 154,
+            "special-defense": 90,
+            "speed": 130
+        },
+        "abilities": {
+            "normal": [
+                "pressure"
+            ],
+            "hidden": [
+                "unnerve"
+            ]
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/mewtwo.png",
+            "shiny": "src/data/sprites/shiny/mewtwo.png"
+        }
+    },
+    "mew": {
+        "id": 151,
+        "height": 4,
+        "weight": 40,
+        "typing": [
+            "psychic"
+        ],
+        "base_stats": {
+            "hp": 100,
+            "attack": 100,
+            "defense": 100,
+            "special-attack": 100,
+            "special-defense": 100,
+            "speed": 100
+        },
+        "abilities": {
+            "normal": [
+                "synchronize"
+            ],
+            "hidden": []
+        },
+        "sprites": {
+            "normal": "src/data/sprites/normal/mew.png",
+            "shiny": "src/data/sprites/shiny/mew.png"
+        }
+    }
+}

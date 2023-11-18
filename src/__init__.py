@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-from utils.misc import get_cases
+from .utils.misc import get_cases
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -28,26 +28,26 @@ async def on_ready():
             name=f"{DEFAULT_PREFIX}help"
         )
     )
-    await bot.load_extension("src.commands")
+    await bot.load_extension("src.cogs.commands")
 
 
 @bot.command()
 @commands.is_owner()
 async def load(ctx):
-    await bot.load_extension("src.commands")
+    await bot.load_extension("src.cogs.commands")
     await ctx.reply("All commands have been successfully loaded.")
 
 
 @bot.command()
 @commands.is_owner()
 async def unload(ctx):
-    await bot.unload_extension("src.commands")
+    await bot.unload_extension("src.cogs.commands")
     await ctx.reply("All commands have been successfully unloaded.")
 
 
 @bot.command()
 @commands.is_owner()
 async def reload(ctx):
-    await bot.unload_extension("src.commands")
-    await bot.load_extension("src.commands")
+    await bot.unload_extension("src.cogs.commands")
+    await bot.load_extension("src.cogs.commands")
     await ctx.reply("All commands have been successfully reloaded.")
