@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 import asyncio
 import json
+import re
 import random
 
 from .. import bot
@@ -120,8 +121,6 @@ class Commands(commands.Cog):
         guess = " ".join(message.content.split()[1:]).lower().strip()
         if guess == pokemon_name:
             discord_id = message.author.id
-            if not exists_user(discord_id):
-                add_user(discord_id)
 
             add_pokemon(discord_id, pokemon_name, ability, is_shiny)
 
@@ -136,11 +135,30 @@ class Commands(commands.Cog):
                 color=0x00ffff
             ))
 
-    @commands.command(brief="[user id | username | user mention]", description="Check your own or another's Pokémon inventory.")
+    @commands.command(brief="[user id | user mention]", description="Check your own or another's Pokémon inventory.")
     @commands.cooldown(1, 30, commands.BucketType.user)
     async def inventory(self, ctx, user=None):
+        if user is None:
+            discord_id = ctx.author.id
+        elif user.isdigit():
+            discord_id = int(user)
+        elif re.match(r"<@(\d+)>", user):
+            discord_id = int(user[2:-1])
+        else:
+            return await ctx.send(embed=discord.Embed(
+                title="Oops!",
+                description="You must input a user ID or mention a user.",
+                color=0x000000
+            ))
 
-        discord_id = ctx.author.id
+        inventory_user = bot.get_guild(ctx.guild.id).get_member(discord_id)
+        if inventory_user is None:
+            return await ctx.send(embed=discord.Embed(
+                title="Oops!",
+                description=f"Could not recognize user with id '{discord_id}'.",
+                color=0x000000
+            ))
+
         owned_pokemon = get_owned_pokemon(discord_id)
 
         owned_pokemon_dict = {}
@@ -150,7 +168,7 @@ class Commands(commands.Cog):
             else:
                 owned_pokemon_dict[pokemon[2]] += 1
 
-        view = InventoryPaginationView(ctx, owned_pokemon_dict)
+        view = InventoryPaginationView(ctx, inventory_user, owned_pokemon_dict)
         await ctx.send(embed=view.pages[0], view=view)
 
     @commands.command(brief="<pokémon name>", description="Get information surrounding a specific Pokémon.")
@@ -159,7 +177,7 @@ class Commands(commands.Cog):
         if pokemon_name is None:
             return await ctx.send(embed=discord.Embed(
                 title="Oops!",
-                description=f"You must input a Pokémon name.",
+                description="You must input a Pokémon name.",
                 color=0x000000
             ))
 
@@ -169,7 +187,7 @@ class Commands(commands.Cog):
             data = json.load(f)
             pokemon_data = data[pokemon_name]
 
-        if pokemon_name not in list(data.keys()):
+        if pokemon_name not in data:
             return await ctx.send(embed=discord.Embed(
                 title="Oops!",
                 description=f"No Pokémon named {pokemon_name.title()}.",

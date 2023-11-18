@@ -4,9 +4,10 @@ import math
 
 
 class InventoryPaginationView(discord.ui.View):
-    def __init__(self, ctx, owned_pokemon, n_per_page=8, *, timeout=3 * 60):
+    def __init__(self, ctx, inventory_user, owned_pokemon, n_per_page=8, *, timeout=3 * 60):
         super().__init__(timeout=timeout)
         self.ctx = ctx
+        self.inventory_user = inventory_user
         self.owned_pokemon = owned_pokemon
         self.n_pokemon = len(owned_pokemon)
         self.n_per_page = n_per_page
@@ -21,8 +22,8 @@ class InventoryPaginationView(discord.ui.View):
 
         if self.n_pages == 0:
             return [discord.Embed(
-                title=f"{self.ctx.author.name}'s Inventory",
-                description=f"This user currently has no pokemon!",
+                title=f"{self.inventory_user.name}'s Inventory",
+                description=f"This user currently has no Pokémon!",
                 color=0xffff00
             )]
 
@@ -31,7 +32,7 @@ class InventoryPaginationView(discord.ui.View):
             upper_bound = min((i + 1) * self.n_per_page, self.n_pokemon)
 
             embed = discord.Embed(
-                title=f"{self.ctx.author.name}'s Inventory",
+                title=f"{self.inventory_user}'s Inventory",
                 description=f"Displaying entries {lower_bound}-{upper_bound}",
                 color=0xffff00
             )

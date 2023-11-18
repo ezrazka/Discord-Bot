@@ -4,6 +4,8 @@ from discord.ext import commands
 from .utils.misc import get_cases, get_extensions
 
 intents = discord.Intents.default()
+intents.presences = True
+intents.members = True
 intents.message_content = True
 
 DEFAULT_PREFIX = "!"
