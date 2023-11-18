@@ -8,6 +8,7 @@ import random
 import math
 
 from .. import bot
+from ..views.InventoryPaginationView import InventoryPaginationView
 from ..utils.database import add_user, add_pokemon, exists_user, get_owned_pokemon
 
 
@@ -113,58 +114,11 @@ class Commands(commands.Cog):
             else:
                 owned_pokemon_dict[pokemon[2]] += 1
 
-        n_per_page = 8
-        n_pages = math.ceil(len(owned_pokemon_dict) / n_per_page)
+        if len(owned_pokemon_dict) == 0:
+            return await ctx.send("You currently have no pokemon!")
 
-        pages = [
-            discord.Embed(
-                title=f"{ctx.author.name}'s Inventory",
-                description=f"Displaying pages {i*8+1}-{min((i+1)*8, len(owned_pokemon_dict))}",
-                color=0xffff00
-            )
-            for i in range(n_pages)
-        ]
-
-        for i, page in enumerate(pages):
-            page.set_footer(text=f"Page {i+1}/{n_pages}")
-        buttons = [
-            Button(style=discord.ButtonStyle.primary,
-                   label="<<", custom_id="first"),
-            Button(style=discord.ButtonStyle.primary,
-                   label="<", custom_id="prev"),
-            Button(style=discord.ButtonStyle.primary,
-                   label=">", custom_id="next"),
-            Button(style=discord.ButtonStyle.primary,
-                   label=">>", custom_id="last")
-        ]
-
-        view = View()
-        for button in buttons:
-            view.add_item(item=button)
-
-        current_page = 0
-        message = await ctx.send(embed=pages[current_page], view=view)
-        while True:
-            interaction = await bot.wait_for("button_click")
-
-            if interaction.component.custom_id == "first":
-                current_page = 0
-            elif interaction.component.custom_id == "prev":
-                current_page = (current_page - 1) % n_pages
-            elif interaction.component.custom_id == "next":
-                current_page = (current_page + 1) % n_pages
-            elif interaction.component.custom_id == "last":
-                current_page = n_pages - 1
-
-            # for pokemon_name, count in owned_pokemon_dict.items():
-            #     pages[current_page].add_field(
-            #         name=f"{pokemon_name.title()} x{count}",
-            #         value="",
-            #         inline=False
-            #     )
-
-            await message.edit(embed=pages[current_page], view=view)
-            await interaction.respond(type=6)
+        view = InventoryPaginationView(ctx, owned_pokemon_dict)
+        await ctx.send(embed=view.pages[0], view=view)
 
 
 async def setup(bot):
