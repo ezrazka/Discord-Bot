@@ -1,5 +1,5 @@
 # Pokemon-Discord-Bot
-A discord bot that tests your Pokémon knowledge for rolling and collecting Pokémon!
+A Discord bot that tests your Pokémon knowledge for rolling and collecting Pokémon!
 
 ## Powered By
 * Made Using Discord.py
