@@ -1,4 +1,4 @@
-# Pokemon-Discord-Bot
+# MyPokéBot
 A Discord bot that tests your Pokémon knowledge for rolling and collecting Pokémon!
 
 ## Powered By
