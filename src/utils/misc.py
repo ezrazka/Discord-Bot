@@ -1,4 +1,8 @@
+import discord
+import requests
 import os
+from PIL import Image
+from io import BytesIO
 
 
 def get_cases(string):
@@ -67,3 +71,17 @@ def get_extensions():
                         f"src.cogs.{directory}.{inner_directory[:-3]}")
 
     return extensions
+
+
+def get_image_file(image_url, file_name, *, size=1):
+    response = requests.get(image_url)
+    image = Image.open(BytesIO(response.content))
+
+    width, height = image.size
+    new_size = (int(width * size), int(height * size))
+    resized_image = image.resize(new_size)
+
+    with BytesIO() as buffer:
+        resized_image.save(buffer, format="PNG")
+        buffer.seek(0)
+        return discord.File(buffer, file_name)

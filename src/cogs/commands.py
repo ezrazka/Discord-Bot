@@ -8,7 +8,7 @@ import random
 from .. import bot
 from .views.InventoryPaginationView import InventoryPaginationView
 from ..utils.database import add_user, add_pokemon, exists_user, get_owned_pokemon
-from ..utils.misc import parse_time
+from ..utils.misc import parse_time, get_image_file
 
 
 class Commands(commands.Cog):
@@ -29,6 +29,7 @@ class Commands(commands.Cog):
             command = bot.get_command(command_name)
 
             if command is None or any(commands.is_owner()(check) for check in command.checks):
+                ctx.command.reset_cooldown(ctx)
                 return await ctx.send(embed=discord.Embed(
                     title="Oops!",
                     description=f"No command named '{command_name}'.",
@@ -90,13 +91,14 @@ class Commands(commands.Cog):
 
             is_shiny = random.randint(1, 128) > 1
             if is_shiny:
-                pokemon_image = data["sprites"]["normal"]
+                sprite_file = get_image_file(
+                    data["sprites"]["normal"], "pokemon.png", size=2)
             else:
-                pokemon_image = data["sprites"]["shiny"]
+                sprite_file = get_image_file(
+                    data["sprites"]["shiny"], "pokemon.png", size=2)
                 footer = "This Pokémon looks odder than usual! ✨"
 
-        file = discord.File(pokemon_image, filename="pokemon.png")
-        random_hex_color = random.randint(0, 0xffffff)
+        random_hex_color = random.randrange(0xffffff)
         embed = discord.Embed(
             title="A wild Pokémon appeared!",
             description="Type `catch <pokémon name>` to catch it!",
@@ -104,7 +106,7 @@ class Commands(commands.Cog):
         )
         embed.set_image(url="attachment://pokemon.png")
         embed.set_footer(text=footer)
-        await ctx.send(embed=embed, file=file)
+        await ctx.send(embed=embed, file=sprite_file)
 
         def check(msg):
             return msg.author.id == ctx.author.id and msg.content.split()[0].lower() == "catch"
@@ -145,6 +147,7 @@ class Commands(commands.Cog):
         elif re.match(r"<@(\d+)>", user):
             discord_id = int(user[2:-1])
         else:
+            ctx.command.reset_cooldown(ctx)
             return await ctx.send(embed=discord.Embed(
                 title="Oops!",
                 description="You must input a user ID or mention a user.",
@@ -153,6 +156,7 @@ class Commands(commands.Cog):
 
         inventory_user = bot.get_guild(ctx.guild.id).get_member(discord_id)
         if inventory_user is None:
+            ctx.command.reset_cooldown(ctx)
             return await ctx.send(embed=discord.Embed(
                 title="Oops!",
                 description=f"Could not recognize user with id '{discord_id}'.",
@@ -175,6 +179,7 @@ class Commands(commands.Cog):
     @commands.cooldown(1, 10, commands.BucketType.user)
     async def info(self, ctx, pokemon_name=None):
         if pokemon_name is None:
+            ctx.command.reset_cooldown(ctx)
             return await ctx.send(embed=discord.Embed(
                 title="Oops!",
                 description="You must input a Pokémon name.",
@@ -185,17 +190,20 @@ class Commands(commands.Cog):
 
         with open("src/data/json/pokemon.json", "r") as f:
             data = json.load(f)
+
+            if pokemon_name not in data:
+                ctx.command.reset_cooldown(ctx)
+                return await ctx.send(embed=discord.Embed(
+                    title="Oops!",
+                    description=f"No Pokémon named {pokemon_name.title()}.",
+                    color=0x000000
+                ))
+
             pokemon_data = data[pokemon_name]
 
-        if pokemon_name not in data:
-            return await ctx.send(embed=discord.Embed(
-                title="Oops!",
-                description=f"No Pokémon named {pokemon_name.title()}.",
-                color=0x000000
-            ))
-
         base_stats = pokemon_data["base_stats"]
-        sprite_path = pokemon_data["sprites"]["normal"]
+        sprite_file = get_image_file(
+            pokemon_data["sprites"]["normal"], f"{pokemon_name}.png", size=2)
         abilities = []
         for ability in pokemon_data["abilities"]["normal"]:
             abilities.append(ability)
@@ -238,7 +246,7 @@ class Commands(commands.Cog):
             icon_url="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png"
         )
 
-        await ctx.send(embed=embed, file=discord.File(sprite_path, f"{pokemon_name}.png"))
+        await ctx.send(embed=embed, file=sprite_file)
 
 
 async def setup(bot):
