@@ -1,5 +1,7 @@
 import discord
 from discord.ext import commands
+import os
+from dotenv import load_dotenv
 
 from .utils.misc import get_cases, get_extensions
 
@@ -8,12 +10,13 @@ intents.presences = True
 intents.members = True
 intents.message_content = True
 
+load_dotenv()
+
 DEFAULT_PREFIX = "!"
-PREFIX = DEFAULT_PREFIX
 
 bot = commands.Bot(
-    command_prefix=get_cases(PREFIX),
-    owner_id=1012689630480580719,
+    command_prefix=get_cases(DEFAULT_PREFIX),
+    owner_id=int(os.environ.get("OWNER_ID")),
     case_insensitive=True,
     allowed_mentions=discord.AllowedMentions(roles=False, everyone=False),
     intents=intents

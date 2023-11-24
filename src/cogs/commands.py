@@ -21,7 +21,7 @@ class Commands(commands.Cog):
         if not exists_user(discord_id):
             add_user(discord_id)
 
-    @commands.command(brief="[command name]", description="Get information on what commands are available, and what they do.")
+    @commands.command(aliases=["commands"], brief="[command name]", description="Get information on what commands are available, and what they do.")
     @commands.cooldown(1, 5, commands.BucketType.user)
     async def help(self, ctx, command_name=None):
         if command_name is not None:
@@ -48,6 +48,7 @@ class Commands(commands.Cog):
                 description=f"""
                 **Usage:** `{usage}`
                 **Description:** {description}
+                **Aliases:** {", ".join(map(lambda x: f"`{x}`", [command.name] + command.aliases))}
                 **Cooldown:** {parse_time(int(cooldown))}
                 """,
                 color=0xff00ff
@@ -70,12 +71,21 @@ class Commands(commands.Cog):
         )
         embed.add_field(
             name="Commands:",
-            value=", ".join(command_list)
+            value=", ".join(map(lambda x: f"`{x}`", command_list))
         )
 
         await ctx.send(embed=embed)
 
-    @commands.command(brief="", description="Roll for a Pokémon! Type `catch <pokémon name>` to catch them, but beware, guessing their name incorrectly will cause them to flee.")
+    @commands.command(aliases=["invitelink", "botinvite"], brief="", description="Get the invite link for this bot.")
+    @commands.cooldown(1, 5, commands.BucketType.user)
+    async def invite(self, ctx):
+        return await ctx.send(embed=discord.Embed(
+            title="Invite Me",
+            description="Add me to your own Discord server! [Click here](https://discord.com/api/oauth2/authorize?client_id=1171813731844497428&permissions=0&scope=bot) to invite me.",
+            color=0xff00ff
+        ))
+
+    @commands.command(aliases=["encounter"], brief="", description="Roll for a Pokémon! Type `catch <pokémon name>` to catch them, but beware, guessing their name incorrectly will cause them to flee.")
     @commands.cooldown(1, 5 * 60, commands.BucketType.user)
     async def roll(self, ctx):
         footer = None
@@ -137,7 +147,7 @@ class Commands(commands.Cog):
                 color=0x00ffff
             ))
 
-    @commands.command(brief="[user id | user mention]", description="Check your own or another's Pokémon inventory.")
+    @commands.command(aliases=["inv", "bag"], brief="[user id | user mention]", description="Check your own or another's Pokémon inventory.")
     @commands.cooldown(1, 30, commands.BucketType.user)
     async def inventory(self, ctx, user=None):
         if user is None:
@@ -175,7 +185,7 @@ class Commands(commands.Cog):
         view = InventoryPaginationView(ctx, inventory_user, owned_pokemon_dict)
         await ctx.send(embed=view.pages[0], view=view)
 
-    @commands.command(brief="<pokémon name>", description="Get information surrounding a specific Pokémon.")
+    @commands.command(aliases=["pokedex"], brief="<pokémon name>", description="Get information surrounding a specific Pokémon.")
     @commands.cooldown(1, 10, commands.BucketType.user)
     async def info(self, ctx, pokemon_name=None):
         if pokemon_name is None:
@@ -201,7 +211,7 @@ class Commands(commands.Cog):
 
             pokemon_data = data[pokemon_name]
 
-        base_stats = pokemon_data["base_stats"]
+        base_stats = pokemon_data["base-stats"]
         sprite_file = get_image_file(
             pokemon_data["sprites"]["normal"], f"{pokemon_name}.png", size=2)
         abilities = []

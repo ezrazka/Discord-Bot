@@ -3,12 +3,25 @@ from discord.ext import commands
 
 from ..utils.misc import parse_time
 
+
 class Errors(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
     @commands.Cog.listener()
     async def on_command_error(self, ctx, error):
+        if isinstance(error, commands.NotOwner):
+            return await ctx.send(embed=discord.Embed(
+                title="Not Owner",
+                description="This command is only available for the owner of this bot.",
+                color=0xffff00
+            ))
+        if isinstance(error, commands.CommandNotFound):
+            return await ctx.send(embed=discord.Embed(
+                title="Command Not Found",
+                description=f"The command '{ctx.invoked_with}' is currently unavailable. Type `{ctx.prefix}help` to see a list of all available commands.",
+                color=0xffff00
+            ))
         if isinstance(error, commands.CommandOnCooldown):
             return await ctx.send(embed=discord.Embed(
                 title="Cooldown",
