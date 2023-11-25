@@ -7,7 +7,8 @@ import random
 
 from .. import bot
 from .views.InventoryPaginationView import InventoryPaginationView
-from ..utils.database import add_user, add_pokemon, exists_user, get_owned_pokemon
+from ..utils.database import add_user, add_pokemon, exists_user, get_owned_pokemon, get_pokemon_count
+from ..utils.pokemon import get_random_encounter
 from ..utils.misc import parse_time, get_image_file
 
 
@@ -86,12 +87,12 @@ class Commands(commands.Cog):
         ))
 
     @commands.command(aliases=["encounter"], brief="", description="Roll for a Pokémon! Type `catch <pokémon name>` to catch them, but beware, guessing their name incorrectly will cause them to flee.")
-    @commands.cooldown(1, 5 * 60, commands.BucketType.user)
+    @commands.cooldown(1, 2 * 60, commands.BucketType.user)
     async def roll(self, ctx):
         footer = None
         with open("src/data/json/pokemon.json", "r") as f:
             data = json.load(f)
-            pokemon_name = random.choice(list(data.keys()))
+            pokemon_name = get_random_encounter()
             data = data[pokemon_name]
 
             if random.randint(1, 128) > 1 or not data["abilities"]["secret"]:
@@ -99,14 +100,22 @@ class Commands(commands.Cog):
             else:
                 ability = random.choice(data["abilities"]["secret"])
 
-            is_shiny = random.randint(1, 128) > 1
+            is_legendary = data["is_legendary"]
+            if is_legendary:
+                footer = "Legends stir as a rare Pokémon appears! 🌌"
+
+            is_mythical = data["is_mythical"]
+            if is_mythical:
+                footer = "A mythical Pokémon graces your path! 🔮"
+
+            is_shiny = random.randint(1, 128) <= 1
             if is_shiny:
-                sprite_file = get_image_file(
-                    data["sprites"]["normal"], "pokemon.png", size=2)
-            else:
                 sprite_file = get_image_file(
                     data["sprites"]["shiny"], "pokemon.png", size=2)
                 footer = "This Pokémon looks odder than usual! ✨"
+            else:
+                sprite_file = get_image_file(
+                    data["sprites"]["normal"], "pokemon.png", size=2)
 
         random_hex_color = random.randrange(0xffffff)
         embed = discord.Embed(
@@ -136,10 +145,14 @@ class Commands(commands.Cog):
 
             add_pokemon(discord_id, pokemon_name, ability, is_shiny)
 
-            return await ctx.send(embed=discord.Embed(
-                description=f"{pokemon_name.title()} was successfully caught by {message.author.mention}!",
-                color=0x00ff00
-            ))
+            pokemon_count = get_pokemon_count(pokemon_name, discord_id)
+            message_one = f"Congratulations {message.author.mention}, the wild {pokemon_name.title()} has been successfully caught!"
+            if pokemon_count == 1:
+                message_two = f"Pokémon has been added to Pokédex."
+            else:
+                message_two = f"You now own {pokemon_count} of this Pokémon!"
+
+            return await ctx.send(f"{message_one} {message_two}")
         else:
             return await ctx.send(embed=discord.Embed(
                 title="You Guessed Incorrectly!",

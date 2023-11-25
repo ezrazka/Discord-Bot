@@ -38,3 +38,13 @@ def get_owned_pokemon(discord_id):
             ORDER BY catch_time
         """, (discord_id,))
         return cursor.fetchall()
+
+
+def get_pokemon_count(name, trainer_id):
+    with sqlite3.connect('data.db') as conn:
+        cursor = conn.cursor()
+        cursor.execute("""
+            SELECT COUNT(*) FROM pokemon
+            WHERE trainer_id = ? AND name = ?
+        """, (trainer_id, name))
+        return cursor.fetchone()[0]

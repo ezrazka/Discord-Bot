@@ -26,7 +26,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "ivysaur": {
         "id": 2,
@@ -55,7 +58,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/2.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "venusaur": {
         "id": 3,
@@ -84,7 +90,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/3.png"
-        }
+        },
+        "evolution-stage": 3,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "charmander": {
         "id": 4,
@@ -112,7 +121,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/4.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "charmeleon": {
         "id": 5,
@@ -140,7 +152,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/5.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "charizard": {
         "id": 6,
@@ -169,7 +184,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/6.png"
-        }
+        },
+        "evolution-stage": 3,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "squirtle": {
         "id": 7,
@@ -197,7 +215,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/7.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "wartortle": {
         "id": 8,
@@ -225,7 +246,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/8.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "blastoise": {
         "id": 9,
@@ -253,7 +277,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/9.png"
-        }
+        },
+        "evolution-stage": 3,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "caterpie": {
         "id": 10,
@@ -281,7 +308,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "metapod": {
         "id": 11,
@@ -307,7 +337,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/11.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "butterfree": {
         "id": 12,
@@ -336,7 +369,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/12.png"
-        }
+        },
+        "evolution-stage": 3,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "weedle": {
         "id": 13,
@@ -365,7 +401,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/13.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "kakuna": {
         "id": 14,
@@ -392,7 +431,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/14.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "beedrill": {
         "id": 15,
@@ -421,7 +463,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/15.png"
-        }
+        },
+        "evolution-stage": 3,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "pidgey": {
         "id": 16,
@@ -451,7 +496,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/16.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "pidgeotto": {
         "id": 17,
@@ -481,7 +529,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/17.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "pidgeot": {
         "id": 18,
@@ -511,7 +562,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/18.png"
-        }
+        },
+        "evolution-stage": 3,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "rattata": {
         "id": 19,
@@ -540,7 +594,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/19.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "raticate": {
         "id": 20,
@@ -569,7 +626,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/20.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "spearow": {
         "id": 21,
@@ -598,7 +658,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/21.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "fearow": {
         "id": 22,
@@ -627,7 +690,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/22.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "ekans": {
         "id": 23,
@@ -656,7 +722,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/23.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "arbok": {
         "id": 24,
@@ -685,7 +754,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/24.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "pikachu": {
         "id": 25,
@@ -713,7 +785,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/25.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "raichu": {
         "id": 26,
@@ -741,7 +816,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/26.png"
-        }
+        },
+        "evolution-stage": 3,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "sandshrew": {
         "id": 27,
@@ -769,7 +847,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/27.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "sandslash": {
         "id": 28,
@@ -797,7 +878,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/28.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "nidoran-f": {
         "id": 29,
@@ -826,7 +910,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/29.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "nidorina": {
         "id": 30,
@@ -855,7 +942,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/30.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "nidoqueen": {
         "id": 31,
@@ -885,7 +975,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/31.png"
-        }
+        },
+        "evolution-stage": 3,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "nidoran-m": {
         "id": 32,
@@ -914,7 +1007,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/32.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "nidorino": {
         "id": 33,
@@ -943,7 +1039,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/33.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "nidoking": {
         "id": 34,
@@ -973,7 +1072,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/34.png"
-        }
+        },
+        "evolution-stage": 3,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "clefairy": {
         "id": 35,
@@ -1002,7 +1104,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/35.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "clefable": {
         "id": 36,
@@ -1031,7 +1136,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/36.png"
-        }
+        },
+        "evolution-stage": 3,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "vulpix": {
         "id": 37,
@@ -1059,7 +1167,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/37.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "ninetales": {
         "id": 38,
@@ -1087,7 +1198,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/38.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "jigglypuff": {
         "id": 39,
@@ -1117,7 +1231,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/39.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "wigglytuff": {
         "id": 40,
@@ -1147,7 +1264,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/40.png"
-        }
+        },
+        "evolution-stage": 3,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "zubat": {
         "id": 41,
@@ -1176,7 +1296,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/41.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "golbat": {
         "id": 42,
@@ -1205,7 +1328,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/42.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "oddish": {
         "id": 43,
@@ -1234,7 +1360,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/43.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "gloom": {
         "id": 44,
@@ -1263,7 +1392,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/44.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "vileplume": {
         "id": 45,
@@ -1292,7 +1424,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/45.png"
-        }
+        },
+        "evolution-stage": 3,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "paras": {
         "id": 46,
@@ -1322,7 +1457,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/46.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "parasect": {
         "id": 47,
@@ -1352,7 +1490,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/47.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "venonat": {
         "id": 48,
@@ -1382,7 +1523,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/48.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "venomoth": {
         "id": 49,
@@ -1412,7 +1556,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/49.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "diglett": {
         "id": 50,
@@ -1441,7 +1588,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/50.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "dugtrio": {
         "id": 51,
@@ -1470,7 +1620,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/51.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "meowth": {
         "id": 52,
@@ -1499,7 +1652,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/52.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "persian": {
         "id": 53,
@@ -1528,7 +1684,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/53.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "psyduck": {
         "id": 54,
@@ -1557,7 +1716,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/54.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "golduck": {
         "id": 55,
@@ -1586,7 +1748,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/55.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "mankey": {
         "id": 56,
@@ -1615,7 +1780,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/56.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "primeape": {
         "id": 57,
@@ -1644,7 +1812,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/57.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "growlithe": {
         "id": 58,
@@ -1673,7 +1844,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/58.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "arcanine": {
         "id": 59,
@@ -1702,7 +1876,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/59.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "poliwag": {
         "id": 60,
@@ -1731,7 +1908,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/60.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "poliwhirl": {
         "id": 61,
@@ -1760,7 +1940,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/61.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "poliwrath": {
         "id": 62,
@@ -1790,7 +1973,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/62.png"
-        }
+        },
+        "evolution-stage": 3,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "abra": {
         "id": 63,
@@ -1819,7 +2005,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/63.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "kadabra": {
         "id": 64,
@@ -1848,7 +2037,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/64.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "alakazam": {
         "id": 65,
@@ -1877,7 +2069,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/65.png"
-        }
+        },
+        "evolution-stage": 3,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "machop": {
         "id": 66,
@@ -1906,7 +2101,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/66.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "machoke": {
         "id": 67,
@@ -1935,7 +2133,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/67.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "machamp": {
         "id": 68,
@@ -1964,7 +2165,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/68.png"
-        }
+        },
+        "evolution-stage": 3,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "bellsprout": {
         "id": 69,
@@ -1993,7 +2197,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/69.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "weepinbell": {
         "id": 70,
@@ -2022,7 +2229,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/70.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "victreebel": {
         "id": 71,
@@ -2051,7 +2261,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/71.png"
-        }
+        },
+        "evolution-stage": 3,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "tentacool": {
         "id": 72,
@@ -2081,7 +2294,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/72.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "tentacruel": {
         "id": 73,
@@ -2111,7 +2327,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/73.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "geodude": {
         "id": 74,
@@ -2141,7 +2360,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/74.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "graveler": {
         "id": 75,
@@ -2171,7 +2393,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/75.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "golem": {
         "id": 76,
@@ -2201,7 +2426,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/76.png"
-        }
+        },
+        "evolution-stage": 3,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "ponyta": {
         "id": 77,
@@ -2230,7 +2458,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/77.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "rapidash": {
         "id": 78,
@@ -2259,7 +2490,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/78.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "slowpoke": {
         "id": 79,
@@ -2289,7 +2523,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/79.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "slowbro": {
         "id": 80,
@@ -2319,7 +2556,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/80.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "magnemite": {
         "id": 81,
@@ -2349,7 +2589,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/81.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "magneton": {
         "id": 82,
@@ -2379,7 +2622,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/82.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "farfetchd": {
         "id": 83,
@@ -2409,7 +2655,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/83.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "doduo": {
         "id": 84,
@@ -2439,7 +2688,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/84.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "dodrio": {
         "id": 85,
@@ -2469,7 +2721,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/85.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "seel": {
         "id": 86,
@@ -2498,7 +2753,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/86.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "dewgong": {
         "id": 87,
@@ -2528,7 +2786,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/87.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "grimer": {
         "id": 88,
@@ -2557,7 +2818,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/88.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "muk": {
         "id": 89,
@@ -2586,7 +2850,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/89.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "shellder": {
         "id": 90,
@@ -2615,7 +2882,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/90.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "cloyster": {
         "id": 91,
@@ -2645,7 +2915,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/91.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "gastly": {
         "id": 92,
@@ -2672,7 +2945,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/92.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "haunter": {
         "id": 93,
@@ -2699,7 +2975,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/93.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "gengar": {
         "id": 94,
@@ -2726,7 +3005,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/94.png"
-        }
+        },
+        "evolution-stage": 3,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "onix": {
         "id": 95,
@@ -2756,7 +3038,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/95.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "drowzee": {
         "id": 96,
@@ -2785,7 +3070,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/96.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "hypno": {
         "id": 97,
@@ -2814,7 +3102,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/97.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "krabby": {
         "id": 98,
@@ -2843,7 +3134,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/98.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "kingler": {
         "id": 99,
@@ -2872,7 +3166,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/99.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "voltorb": {
         "id": 100,
@@ -2901,7 +3198,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/100.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "electrode": {
         "id": 101,
@@ -2930,7 +3230,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/101.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "exeggcute": {
         "id": 102,
@@ -2959,7 +3262,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/102.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "exeggutor": {
         "id": 103,
@@ -2988,7 +3294,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/103.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "cubone": {
         "id": 104,
@@ -3017,7 +3326,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/104.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "marowak": {
         "id": 105,
@@ -3046,7 +3358,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/105.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "hitmonlee": {
         "id": 106,
@@ -3075,7 +3390,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/106.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "hitmonchan": {
         "id": 107,
@@ -3104,7 +3422,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/107.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "lickitung": {
         "id": 108,
@@ -3133,7 +3454,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/108.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "koffing": {
         "id": 109,
@@ -3162,7 +3486,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/109.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "weezing": {
         "id": 110,
@@ -3191,7 +3518,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/110.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "rhyhorn": {
         "id": 111,
@@ -3221,7 +3551,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/111.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "rhydon": {
         "id": 112,
@@ -3251,7 +3584,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/112.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "chansey": {
         "id": 113,
@@ -3280,7 +3616,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/113.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "tangela": {
         "id": 114,
@@ -3309,7 +3648,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/114.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "kangaskhan": {
         "id": 115,
@@ -3338,7 +3680,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/115.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "horsea": {
         "id": 116,
@@ -3367,7 +3712,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/116.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "seadra": {
         "id": 117,
@@ -3396,7 +3744,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/117.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "goldeen": {
         "id": 118,
@@ -3425,7 +3776,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/118.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "seaking": {
         "id": 119,
@@ -3454,7 +3808,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/119.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "staryu": {
         "id": 120,
@@ -3483,7 +3840,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/120.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "starmie": {
         "id": 121,
@@ -3513,7 +3873,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/121.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "mr-mime": {
         "id": 122,
@@ -3543,7 +3906,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/122.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "scyther": {
         "id": 123,
@@ -3573,7 +3939,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/123.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "jynx": {
         "id": 124,
@@ -3603,7 +3972,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/124.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "electabuzz": {
         "id": 125,
@@ -3631,7 +4003,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/125.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "magmar": {
         "id": 126,
@@ -3659,7 +4034,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/126.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "pinsir": {
         "id": 127,
@@ -3688,7 +4066,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/127.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "tauros": {
         "id": 128,
@@ -3717,7 +4098,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/128.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "magikarp": {
         "id": 129,
@@ -3745,7 +4129,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/129.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "gyarados": {
         "id": 130,
@@ -3774,7 +4161,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/130.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "lapras": {
         "id": 131,
@@ -3804,7 +4194,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/131.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "ditto": {
         "id": 132,
@@ -3832,7 +4225,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/132.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "eevee": {
         "id": 133,
@@ -3861,7 +4257,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/133.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "vaporeon": {
         "id": 134,
@@ -3889,7 +4288,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/134.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "jolteon": {
         "id": 135,
@@ -3917,7 +4319,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/135.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "flareon": {
         "id": 136,
@@ -3945,7 +4350,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/136.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "porygon": {
         "id": 137,
@@ -3974,7 +4382,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/137.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "omanyte": {
         "id": 138,
@@ -4004,7 +4415,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/138.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "omastar": {
         "id": 139,
@@ -4034,7 +4448,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/139.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "kabuto": {
         "id": 140,
@@ -4064,7 +4481,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/140.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "kabutops": {
         "id": 141,
@@ -4094,7 +4514,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/141.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "aerodactyl": {
         "id": 142,
@@ -4124,7 +4547,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/142.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "snorlax": {
         "id": 143,
@@ -4153,7 +4579,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/143.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "articuno": {
         "id": 144,
@@ -4182,7 +4611,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/144.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": true,
+        "is_mythical": false
     },
     "zapdos": {
         "id": 145,
@@ -4211,7 +4643,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/145.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": true,
+        "is_mythical": false
     },
     "moltres": {
         "id": 146,
@@ -4240,7 +4675,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/146.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": true,
+        "is_mythical": false
     },
     "dratini": {
         "id": 147,
@@ -4268,7 +4706,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/147.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "dragonair": {
         "id": 148,
@@ -4296,7 +4737,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/148.png"
-        }
+        },
+        "evolution-stage": 2,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "dragonite": {
         "id": 149,
@@ -4325,7 +4769,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/149.png"
-        }
+        },
+        "evolution-stage": 3,
+        "is_legendary": false,
+        "is_mythical": false
     },
     "mewtwo": {
         "id": 150,
@@ -4353,7 +4800,10 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/150.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": true,
+        "is_mythical": false
     },
     "mew": {
         "id": 151,
@@ -4379,6 +4829,9 @@
         "sprites": {
             "normal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
             "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/151.png"
-        }
+        },
+        "evolution-stage": 1,
+        "is_legendary": false,
+        "is_mythical": true
     }
 }
